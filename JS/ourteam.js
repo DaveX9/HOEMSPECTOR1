@@ -3,7 +3,7 @@ const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 
 let scrollAmount = 0;
-const scrollStep = 220; / Width of one team member including margin
+const scrollStep = 220; // Width of one team member including margin
 
 nextBtn.addEventListener("click", () => {
   scrollAmount += scrollStep;
@@ -12,6 +12,6 @@ nextBtn.addEventListener("click", () => {
 
 prevBtn.addEventListener("click", () => {
   scrollAmount -= scrollStep;
-  if (scrollAmount < 0) scrollAmount = 0; / Prevent scrolling beyond the first item
+  if (scrollAmount < 0) scrollAmount = 0; // Prevent scrolling beyond the first item
   carousel.style.transform = `translateX(-${scrollAmount}px)`;
 });

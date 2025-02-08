@@ -628,7 +628,7 @@ header {
 
 /* Background Overlay for Readability */
 .services-section::before {
-  content: "";
+  content: ";
   position: absolute;
   top: 0;
   left: 0;
@@ -732,7 +732,7 @@ header {
 
 /* Background Overlay for Readability */
 .pricing-section::before {
-  content: "";
+  content: ";
   position: absolute;
   top: 0;
   left: 0;
@@ -858,7 +858,7 @@ header {
 
 /* Skewed Background */
 .reports-section::before {
-  content: "";
+  content: ";
   position: absolute;
   top: -50px;
   left: 0;
