@@ -711,6 +711,88 @@ header {
   margin: 0;
   /* เอา margin ออกเพื่อความสม่ำเสมอ */
 }
+@media (max-width: 480px) {
+  .article-section {
+      padding: 15px;
+  }
+
+  .article-title {
+      font-size: 28px; /* Reduce font size for smaller screens */
+      margin-bottom: 8px;
+  }
+
+  .article-description {
+      font-size: 16px; /* Adjust for better readability */
+      margin-bottom: 15px;
+  }
+
+  .upload-date {
+      font-size: 14px; /* Make it smaller for mobile */
+      text-align: center; /* Center align for mobile readability */
+      margin-top: 8px;
+  }
+
+  .content-container {
+      margin-top: 15px;
+  }
+
+  .content-subtitle {
+      font-size: 20px;
+      margin-bottom: 15px;
+      text-align: center; /* Center align titles */
+  }
+
+  .main-image-container {
+      margin-bottom: 20px;
+  }
+
+  .main-image {
+      max-width: 100%; /* Make the image fully responsive */
+      border-radius: 6px;
+  }
+
+  .main-image-caption {
+      font-size: 12px;
+  }
+
+  .detailed-section {
+      margin-top: 15px;
+  }
+
+  .detailed-section h3 {
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .detailed-section p {
+      font-size: 14px;
+      text-align: justify;
+  }
+
+  /* Adjust subsections for better readability on mobile */
+  .subsection {
+      flex-direction: column; /* Stack image and text */
+      align-items: center; /* Center align everything */
+      text-align: center; /* Center text for better flow */
+      gap: 15px;
+  }
+
+  .sub-image {
+      max-width: 80%; /* Make images responsive */
+      height: auto;
+      border-radius: 6px;
+  }
+
+  .sub-content {
+      text-align: center; /* Center text */
+  }
+
+  .subsection p {
+      font-size: 14px;
+      line-height: 1.4;
+  }
+}
+
 
 
 /* Section Styling */
