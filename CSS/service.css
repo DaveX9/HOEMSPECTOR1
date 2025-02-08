@@ -1,5 +1,5 @@
-@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
-@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 :root {
   --background-color: #ffffff;
@@ -734,7 +734,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https:/img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
+  background-image: url('https://img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -744,13 +744,13 @@ header {
 
 @media (max-width: 1024px) {
   .services1::before {
-    background-image: url('https:/img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
+    background-image: url('https://img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
   }
 }
 
 @media (max-width: 768px) {
   .services1::before {
-    background-image: url('https:/img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
+    background-image: url('https://img.freepik.com/free-vector/vector-white-gradient-background-modern-design_361591-3953.jpg?t=st=1738725249~exp=1738728849~hmac=1a75d93d8974a767f02f666af66386f5815c8c4bc0884536e5c10da0e151a713&w=1380');
     opacity: 0.15;
 
   }

@@ -7,8 +7,8 @@ document.getElementById('share-icon').addEventListener('click', function (event)
             text: 'Visit T. Home Inspector for amazing services!',
             url: 'https://www.yourwebsite.com'
         })
-        .then(() => console.log('Share successful!'))
-        .catch((error) => console.error('Error sharing:', error));
+            .then(() => console.log('Share successful!'))
+            .catch((error) => console.error('Error sharing:', error));
     } else {
         alert('Your browser does not support the Web Share API.');
     }
