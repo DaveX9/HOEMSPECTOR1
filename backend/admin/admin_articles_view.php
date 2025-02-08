@@ -134,7 +134,7 @@
         <!-- Article Thumbnail -->
         <div class="form-group">
             <label for="article-thumbnail">Article Thumbnail (936 x 712 px):</label>
-            <img id="article-thumbnail-preview" src="/HOMESPECTOR/img/project1.jpg" alt="Article Thumbnail" style="max-width: 300px;">
+            <img id="article-thumbnail-preview" src="/HOMESPECTOR1/img/project1.jpg" alt="Article Thumbnail" style="max-width: 300px;">
             <input type="file" id="article-thumbnail" name="article_thumbnail" accept="image/*">
         </div>
 
@@ -159,7 +159,7 @@
             </p>
 
             <div class="subsection">
-                <img src="/HOMESPECTOR/img/article1.jpg" alt="Fiber Optic Design 1">
+                <img src="/HOMESPECTOR1/img/article1.jpg" alt="Fiber Optic Design 1">
                 <p>
                     1. มีจุดต่อ Fiber Optic อยู่ใกล้หม้อแปลงไฟฟ้า มีการเชื่อมต่อไปที่โถงชั้น 1
                     และโถงชั้น 2 (รูปที่ 1)
@@ -169,7 +169,7 @@
             </div>
 
             <div class="subsection">
-                <img src="/HOMESPECTOR/img/article1.jpg" alt="Fiber Optic Design 2">
+                <img src="/HOMESPECTOR1/img/article1.jpg" alt="Fiber Optic Design 2">
                 <p>
                     2. มีจุดต่อ Fiber Optic อยู่ใกล้หม้อแปลงไฟฟ้า มีการเชื่อมต่อไปที่โถงชั้น 1
                     และโถงชั้น 2
@@ -179,7 +179,7 @@
             </div>
 
             <div class="subsection">
-                <img src="/HOMESPECTOR/img/article1.jpg" alt="Fiber Optic Design 2">
+                <img src="/HOMESPECTOR1/img/article1.jpg" alt="Fiber Optic Design 2">
                 <p>
                     3. มีจุดต่อ Fiber Optic อยู่ใกล้หม้อแปลงไฟฟ้า มีการเชื่อมต่อไปที่โถงชั้น 1
                     และโถงชั้น 2
@@ -189,7 +189,7 @@
             </div>
 
             <div class="subsection">
-                <img src="/HOMESPECTOR/img/article1.jpg" alt="Fiber Optic Design 2">
+                <img src="/HOMESPECTOR1/img/article1.jpg" alt="Fiber Optic Design 2">
                 <p>
                     4. มีจุดต่อ Fiber Optic อยู่ใกล้หม้อแปลงไฟฟ้า มีการเชื่อมต่อไปที่โถงชั้น 1
                     และโถงชั้น 2
@@ -216,7 +216,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Setthasiri">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/project1.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/project1.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>
@@ -224,7 +224,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Setthasiri">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/project1.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/project1.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>
@@ -233,7 +233,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Ladawan">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>
@@ -241,7 +241,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Ladawan">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>
@@ -249,7 +249,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Ladawan">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/carousel2.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>
@@ -258,7 +258,7 @@
                 <label>Title:</label>
                 <input type="text" name="carousel_titles[]" value="Review Setthasiri">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR/img/project1.jpg" alt="Carousel Image" class="preview-image">
+                <img src="/HOMESPECTOR1/img/project1.jpg" alt="Carousel Image" class="preview-image">
                 <input type="file" name="carousel_images[]" accept="image/*">
                 <button type="button" class="remove-carousel-item">Delete</button>
             </div>

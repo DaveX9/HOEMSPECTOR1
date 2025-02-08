@@ -51,22 +51,22 @@
             <!-- Existing Images -->
             <div class="form-group">
                 <label>Slide 1:</label>
-                <img src="/HOMESPECTOR/img/servicecharge1.png" alt="Slide 1" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/servicecharge1.png" alt="Slide 1" style="max-width: 200px;" />
                 <input type="file" name="carousel_images[]" accept="image/*" />
             </div>
             <div class="form-group">
                 <label>Slide 2:</label>
-                <img src="/HOMESPECTOR/img/servicecharge2.png" alt="Slide 2" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/servicecharge2.png" alt="Slide 2" style="max-width: 200px;" />
                 <input type="file" name="carousel_images[]" accept="image/*" />
             </div>
             <div class="form-group">
                 <label>Slide 3:</label>
-                <img src="/HOMESPECTOR/img/servicecharge3.png" alt="Slide 3" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/servicecharge3.png" alt="Slide 3" style="max-width: 200px;" />
                 <input type="file" name="carousel_images[]" accept="image/*" />
             </div>
             <div class="form-group">
                 <label>Slide 4:</label>
-                <img src="/HOMESPECTOR/img/servicecharge4.png" alt="Slide 4" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/servicecharge4.png" alt="Slide 4" style="max-width: 200px;" />
                 <input type="file" name="carousel_images[]" accept="image/*" />
             </div>
         </div>

@@ -30,7 +30,7 @@ level of expertise on services and solutions of the ever growing industry.
         <h2>Join Us Image</h2>
         <div class="form-group">
             <label for="join-image">Upload Image:</label>
-            <img id="join-image-preview" src="/HOMESPECTOR/img/joinwithus2.png" alt="Join Us Preview" style="max-width: 300px;">
+            <img id="join-image-preview" src="/HOMESPECTOR1/img/joinwithus2.png" alt="Join Us Preview" style="max-width: 300px;">
             <input type="file" id="join-image-input" name="join_image" accept="image/*" />
         </div>
 

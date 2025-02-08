@@ -99,19 +99,19 @@
             <!-- Default Reviews -->
             <?php
             $default_reviews = [
-                ["title" => "Review Setthasiri", "image" => "/HOMESPECTOR/img/landhouse1.jpg", "category" => "Land and House"],
-                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR/img/sansiri1.png", "category" => "Sansiri"],
-                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR/img/scasset1.webp", "category" => "SC Asset"],
-                ["title" => "The Residences", "image" => "/HOMESPECTOR/img/landhouse2.jpg", "category" => "Land and House"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai1.jpg", "category" => "Ap Thai"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai2.jpg", "category" => "Ap Thai"],
-                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR/img/property-perfect1.jpg", "category" => "Property Profect"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai3.jpg", "category" => "Ap Thai"],
-                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR/img/property-profect2.jpg", "category" => "Property Profect"],
-                ["title" => "Review MQDC", "image" => "/HOMESPECTOR/img/mqdc1.jpg", "category" => "MQDC"],
-                ["title" => "Review House", "image" => "/HOMESPECTOR/img/others1.jpg", "category" => "Others"],
-                ["title" => "Review MQDC", "image" => "/HOMESPECTOR/img/mqdc2.jpg", "category" => "MQDC"],
-                ["title" => "Review QHouse", "image" => "/HOMESPECTOR/img/qhouse1.jpg", "category" => "QHouse"]
+                ["title" => "Review Setthasiri", "image" => "/HOMESPECTOR1/img/landhouse1.jpg", "category" => "Land and House"],
+                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR1/img/sansiri1.png", "category" => "Sansiri"],
+                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR1/img/scasset1.webp", "category" => "SC Asset"],
+                ["title" => "The Residences", "image" => "/HOMESPECTOR1/img/landhouse2.jpg", "category" => "Land and House"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai1.jpg", "category" => "Ap Thai"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai2.jpg", "category" => "Ap Thai"],
+                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR1/img/property-perfect1.jpg", "category" => "Property Profect"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai3.jpg", "category" => "Ap Thai"],
+                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR1/img/property-profect2.jpg", "category" => "Property Profect"],
+                ["title" => "Review MQDC", "image" => "/HOMESPECTOR1/img/mqdc1.jpg", "category" => "MQDC"],
+                ["title" => "Review House", "image" => "/HOMESPECTOR1/img/others1.jpg", "category" => "Others"],
+                ["title" => "Review MQDC", "image" => "/HOMESPECTOR1/img/mqdc2.jpg", "category" => "MQDC"],
+                ["title" => "Review QHouse", "image" => "/HOMESPECTOR1/img/qhouse1.jpg", "category" => "QHouse"]
             ];
 
             foreach ($default_reviews as $review) {

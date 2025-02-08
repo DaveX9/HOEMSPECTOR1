@@ -14,15 +14,15 @@ $default_description = [
 ];
 
 $default_promotions = [
-    ["title" => "รับสิทธิ์พิเศษ ต.ตกแต่ง ฟรี 3 รายการ", "image" => "/HOMESPECTOR/img/promotion1.jpg"],
-    ["title" => "ตรวจบ้านสบายใจทำบุญบ้านได้ง่ายๆ", "image" => "/HOMESPECTOR/img/promotion2.jpg"],
-    ["title" => "สำหรับลูกค้า ต.ตรวจบ้าน รับเลย!", "image" => "/HOMESPECTOR/img/promotion3.jpg"]
+    ["title" => "รับสิทธิ์พิเศษ ต.ตกแต่ง ฟรี 3 รายการ", "image" => "/HOMESPECTOR1/img/promotion1.jpg"],
+    ["title" => "ตรวจบ้านสบายใจทำบุญบ้านได้ง่ายๆ", "image" => "/HOMESPECTOR1/img/promotion2.jpg"],
+    ["title" => "สำหรับลูกค้า ต.ตรวจบ้าน รับเลย!", "image" => "/HOMESPECTOR1/img/promotion3.jpg"]
 ];
 
 $default_carousel_images = [
-    "/HOMESPECTOR/img/promotion3.jpg",
-    "/HOMESPECTOR/img/promotion3.1.jpg",
-    "/HOMESPECTOR/img/promotion3.2.jpg"
+    "/HOMESPECTOR1/img/promotion3.jpg",
+    "/HOMESPECTOR1/img/promotion3.1.jpg",
+    "/HOMESPECTOR1/img/promotion3.2.jpg"
 ];
 ?>
 

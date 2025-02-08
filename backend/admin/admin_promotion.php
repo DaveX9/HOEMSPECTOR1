@@ -27,7 +27,7 @@
                 <label for="promotion-title-1">Title:</label>
                 <input type="text" id="promotion-title-1" name="promotion_titles[]" value="รับสิทธิ์พิเศษ ต.ตกแต่ง ฟรี 3 รายการ" />
                 <label for="promotion-image-1">Image:</label>
-                <img src="/HOMESPECTOR/img/promotion1.jpg" alt="Promotion 1" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/promotion1.jpg" alt="Promotion 1" style="max-width: 200px;" />
                 <input type="file" id="promotion-image-1" name="promotion_images[]" accept="image/*" />
             </div>
 
@@ -37,7 +37,7 @@
                 <label for="promotion-title-2">Title:</label>
                 <input type="text" id="promotion-title-2" name="promotion_titles[]" value="ตรวจบ้านสบายใจทำบุญบ้านได้ง่ายๆ" />
                 <label for="promotion-image-2">Image:</label>
-                <img src="/HOMESPECTOR/img/promotion2.jpg" alt="Promotion 2" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/promotion2.jpg" alt="Promotion 2" style="max-width: 200px;" />
                 <input type="file" id="promotion-image-2" name="promotion_images[]" accept="image/*" />
             </div>
 
@@ -47,7 +47,7 @@
                 <label for="promotion-title-3">Title:</label>
                 <input type="text" id="promotion-title-3" name="promotion_titles[]" value="สำหรับลูกค้า ต.ตรวจบ้าน รับเลย!" />
                 <label for="promotion-image-3">Image:</label>
-                <img src="/HOMESPECTOR/img/promotion3.jpg" alt="Promotion 3" style="max-width: 200px;" />
+                <img src="/HOMESPECTOR1/img/promotion3.jpg" alt="Promotion 3" style="max-width: 200px;" />
                 <input type="file" id="promotion-image-3" name="promotion_images[]" accept="image/*" />
             </div>
         </div>
