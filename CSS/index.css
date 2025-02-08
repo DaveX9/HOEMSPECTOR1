@@ -1186,7 +1186,7 @@ header {
 }
 
 /* Responsive Design for Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .content-container {
         flex-direction: column;
         text-align: center;
@@ -1251,7 +1251,7 @@ header {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .certifications {
         flex-direction: column;
         align-items: center;
@@ -1387,7 +1387,7 @@ header {
     border-radius: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .cal {
         flex-direction: column;
         align-items: center;
@@ -1483,7 +1483,7 @@ header {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     .wrapper,
     .header .container,
@@ -1645,7 +1645,7 @@ button.next-btn:hover {
     background-color: #ff5c05;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     /* Adjust carousel container */
     .carousel-container3 {
@@ -1973,7 +1973,7 @@ button.next-btn:hover {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .content-wrapper {
         max-width: 90%;
     }
@@ -2332,186 +2332,4 @@ button.next-btn:hover {
     font-size: 0.9em;
     color: #777;
     margin-bottom: -30px;
-}
-
-@media (max-width: 480px) {
-    /* General Adjustments */
-    body {
-        font-size: 14px;
-        padding: 5px;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    /* Navigation Menu */
-    .nav-links {
-        width: 100%;
-        height: 100%;
-        right: -100%;
-        flex-direction: column;
-        padding-top: 50px;
-        background-color: var(--background-color);
-    }
-
-    .nav-links ul {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .nav-links ul li a {
-        font-size: 14px;
-        padding: 8px 10px;
-    }
-
-    #hamburger-icon {
-        display: block;
-        font-size: 22px;
-    }
-
-    /* Header */
-    .logo img {
-        height: 70px;
-    }
-
-    /* Hero Section */
-    .hero {
-        height: auto;
-        padding: 50px 20px;
-    }
-
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .hero-content p {
-        font-size: 1.2rem;
-    }
-
-    /* Buttons */
-    .btn-primary,
-    .btn-secondary {
-        font-size: 14px;
-        padding: 10px 15px;
-    }
-
-    /* Service Section */
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .service-card {
-        width: 100%;
-        padding: 15px;
-    }
-
-    /* Image Adjustments */
-    .main-image {
-        max-width: 100%;
-    }
-
-    /* Contact Floating Button */
-    .contact-container {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .contact-item {
-        width: 90%;
-        text-align: center;
-        padding: 12px;
-        font-size: 1rem;
-    }
-
-    /* Footer */
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-center {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .footer-left img {
-        width: 80%;
-    }
-
-    .footer-right {
-        width: 100%;
-    }
-
-    .footer-bottom {
-        font-size: 0.8rem;
-    }
-
-    /* FAQ Section */
-    .faq-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .faq-menu {
-        width: 100%;
-    }
-
-    .faq-questions {
-        width: 100%;
-    }
-
-    /* Certifications */
-    .certifications {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .certification img {
-        max-width: 80px;
-    }
-
-    /* Stats Section */
-    .stats-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .stat-box {
-        width: 90%;
-        max-width: 250px;
-    }
-
-    /* Projects Grid */
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Articles Section */
-    .articles-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Carousel */
-    .carousel-slides3 {
-        height: 300px;
-    }
-
-    .carousel-slide3 img {
-        height: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-
-    /* Menu */
-    .menu-content {
-        flex-direction: column;
-    }
-
-    .menu-section {
-        width: 100%;
-    }
 }
