@@ -324,7 +324,7 @@ header {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .nav-links ul li a {
         font-size: 14px;
         padding: 8px 10px;
@@ -468,7 +468,6 @@ header {
 
 .menu-section {
     flex: 1 1 30%;
-    /* Adjust for responsiveness */
     margin: 10px;
 }
 
@@ -861,7 +860,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr;
     }
@@ -1650,6 +1649,82 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+@media (max-width: 768px) {
+    /* Adjust carousel container */
+    .carousel-container3 {
+        width: 100%;
+        padding: 30px;
+        margin: 30px 0;
+        border-radius: 8px;
+    }
+
+    /* Center and adjust the "ดูทั้งหมด" button */
+    .btn-all {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    /* Reduce slide height */
+    .carousel-slides3 {
+        height: 400px; /* Adjusted for tablets */
+        max-width: 100%;
+    }
+
+    .carousel-slide3 {
+        height: 400px; /* Adjusted for tablets */
+    }
+
+    .carousel-slide3 img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Adjust text content */
+    .slide-content3 {
+        bottom: 15px;
+        left: 15px;
+        width: 70%;
+        padding: 12px;
+    }
+
+    .slide-content3 h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    /* Adjust thumbnails */
+    .carousel-thumbnails {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .thumbnail {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* Resize navigation buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}
 
 
 
@@ -1730,6 +1805,68 @@ button.next-btn:hover {
     white-space: nowrap;
     margin-left: 10px;
 }
+@media (max-width: 768px) {
+    .articles {
+        max-width: 100%;
+        padding: 15px;
+        margin-top: 50px; /* Reduce space for better fit */
+        margin-bottom: 50px;
+        top: 0; /* Remove fixed top position */
+        padding-bottom: 40px;
+    }
+
+    .articles-title {
+        font-size: 1.5em; /* Reduce font size for better fit */
+        text-align: center; /* Center the title */
+        padding-left: 0;
+    }
+
+    /* Adjust "ดูทั้งหมด" button */
+    .btn-firstall {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 0.8em;
+        padding: 8px 12px;
+    }
+
+    /* Adjust grid layout for small screens */
+    .articles-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px; /* Reduce spacing */
+    }
+
+    /* Adjust article cards */
+    .articles-card {
+        border-radius: 8px;
+        transition: transform 0.2s;
+    }
+
+    .articles-card img {
+        height: 180px; /* Adjust height to fit mobile better */
+        border-radius: 8px 8px 0 0;
+    }
+
+    .articles-card:hover {
+        transform: translateY(-3px);
+    }
+
+    /* Adjust article link styles */
+    .articles a {
+        font-size: 16px;
+    }
+
+    /* Upload date styling */
+    .upload-date {
+        font-size: 0.8em;
+        text-align: center; /* Center text */
+        margin-left: 0;
+        display: block;
+        margin-top: 5px;
+    }
+}
+
 
 /* newapp */
 .container-newapp {
@@ -1807,6 +1944,62 @@ button.next-btn:hover {
 
 .cta button:hover {
     background-color: #2a9881;
+}
+@media (max-width: 768px) {
+    .container-newapp {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Adjust header */
+    .header-newapp {
+        padding: 30px 15px;
+        transform: none; /* Remove skew effect for better readability */
+    }
+
+    .header-newapp h1 {
+        font-size: 2rem;
+        transform: none;
+    }
+
+    .header-newapp h2 {
+        font-size: 1.2rem;
+        transform: none;
+    }
+
+    .header-newapp p {
+        font-size: 1rem;
+        transform: none;
+    }
+
+    /* Adjust content layout */
+    .content-newapp {
+        max-width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    /* Stack images vertically */
+    .app-preview {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .app-preview img {
+        width: 150px; /* Adjust image size */
+    }
+
+    /* Adjust CTA button */
+    .cta {
+        margin-top: 15px;
+    }
+
+    .cta button {
+        font-size: 1rem;
+        padding: 8px 15px;
+        border-radius: 12px;
+    }
 }
 
 
@@ -2064,6 +2257,68 @@ button.next-btn:hover {
     border-top: none;
     background-color: #fafafa;
 }
+@media (max-width: 768px) {
+    .faq {
+        padding: 40px 15px; /* Reduce padding for better fit */
+    }
+
+    .faq-title {
+        font-size: 28px; /* Reduce title size */
+    }
+
+    .faq-subtitle {
+        font-size: 16px; /* Adjust subtitle size */
+        margin-bottom: 20px;
+    }
+
+    /* Adjust FAQ content layout */
+    .faq-content {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+        gap: 15px;
+    }
+
+    .faq-menu {
+        width: 100%; /* Make menu full-width */
+        text-align: center;
+    }
+
+    .faq-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .faq-menu li {
+        padding: 8px 15px;
+        font-size: 16px;
+        width: auto;
+        text-align: center;
+    }
+
+    .faq-questions {
+        width: 100%;
+        text-align: left;
+    }
+
+    .faq-question {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .faq-question .icon {
+        font-size: 20px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .faq-answer {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
 
 /* elfsight */
 
