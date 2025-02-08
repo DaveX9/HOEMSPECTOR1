@@ -612,7 +612,7 @@ header {
 /* Fullscreen Story Header */
 .story-header {
   position: relative;
-  width: 100%;
+  width:100vw;
   height: 70vh;
   overflow: hidden;
 }
@@ -668,6 +668,17 @@ header {
   margin: 15px auto 0;
 }
 
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .story-header {
+    height: 70vh;
+    /* Reduce height for mobile */
+  }
+
+  .story-header .header-title {
+    font-size: 2.5rem;
+  }
+}
 
 /* Vision and Mission Section */
 .vision-mission {
@@ -756,6 +767,17 @@ header {
   font-size: 1.2rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .values {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value {
+    max-width: 80%;
+  }
+}
 
 
 
@@ -883,110 +905,23 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 480px) {
-  /* Ensure Fullscreen Header */
-  .story-header {
-      height: 100vh; /* Full height on mobile */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-  }
-
-  /* Make the Header Image Fullscreen */
-  .story-header .header-image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* Ensure full coverage */
-      position: absolute;
-      top: 0;
-      left: 0;
-  }
-
-  /* Center the Story Title */
-  .story-header .header-title {
-      font-size: 2.2rem;
-      text-align: center;
-      max-width: 80%;
-      z-index: 2;
-  }
-
-  /* Fullscreen Story Content */
-  .story-content {
-      padding: 20px;
-      font-size: 1rem;
-      line-height: 1.6;
-      text-align: left;
-  }
-
-  .story-content p {
-      font-size: 1rem;
-      text-align: justify;
-      margin-bottom: 15px;
-  }
-
-  /* Adjusting Contact Section */
-  .contact-container {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-      bottom: 10px;
-  }
-
-  .contact-item {
-      width: 90%;
-      font-size: 0.9rem;
-      text-align: center;
-      padding: 12px;
-  }
-
-  /* Adjust Founder Section */
-  .founders-container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .founder {
-      width: 90%;
-      margin-bottom: 20px;
-  }
-
-  .founder-photo {
-      width: 150px;
-      height: 150px;
-  }
-
-  /* Adjust Vision and Mission Section */
-  .vision-mission h2 {
-      font-size: 2rem;
-      text-align: center;
-  }
-
-  .values {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .value {
-      width: 90%;
-      text-align: center;
-  }
-
-  /* Adjust Commitment Section */
+/* Responsive Design */
+@media (max-width: 768px) {
   .commitment-content {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .commitment-image {
-      width: 100%;
+    width: 90%;
   }
 
   .centered-list {
-      max-width: 100%;
-      text-align: left;
+    max-width: 100%;
+  }
+
+  .centered-list li {
+    text-align: left;
   }
 }
 
@@ -1017,6 +952,7 @@ p {
 
 .footer-logo {
   height: auto;
+  /* Make it smaller as per your requirements */
   width: 50%;
   display: inline-block;
 }
@@ -1031,17 +967,21 @@ p {
 .social-icons {
   display: flex;
   gap: 10px;
+  /* Space between icons */
 }
 
 .social-icons a img {
   width: 20px;
   height: auto;
   transition: transform 0.5s ease;
+  /* Smooth scaling effect */
 }
 
 .social-icons a:hover img {
   transform: scale(1.2);
+  /* Slight enlargement on hover */
 }
+
 
 .footer-center {
   flex: 1;
@@ -1085,7 +1025,9 @@ p {
   display: none;
   position: absolute;
   top: calc(100% + 10px);
+  /* Add 10px distance from the parent */
   left: 0;
+  /* Align left to parent */
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -1097,19 +1039,25 @@ p {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
   transform: translateY(-10px);
+  /* Start with an offset for smooth animation */
 }
 
+/* Ensure Dropdown Menu Stays Open When Hovered */
 .dropdown2:hover .dropdown-menu2 {
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
+/* Adjust Dropdown Parent Styling */
 .dropdown2 {
   position: relative;
+  /* Ensure proper positioning for the menu */
   cursor: pointer;
+  /* Add a pointer cursor */
 }
 
+/* Ensure smooth hover behavior for dropdown items */
 .dropdown-menu2 li {
   display: block;
 }
