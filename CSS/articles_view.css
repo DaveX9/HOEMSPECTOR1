@@ -675,13 +675,8 @@ header {
 
 .subsection {
   display: flex;
-  /* จัดรูปภาพและข้อความในแถวเดียวกัน */
-  gap: 20px;
-  /* เพิ่มช่องว่างระหว่างองค์ประกอบ */
   align-items: center;
-  /* จัดตำแหน่งข้อความให้อยู่ตรงกลางแนวตั้ง */
   margin-bottom: 30px;
-  /* เพิ่มช่องว่างระหว่างแต่ละ subsection */
 }
 
 .sub-image {

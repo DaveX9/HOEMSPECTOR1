@@ -208,11 +208,6 @@ header {
     padding: 10px;
     transition: all 0.3s ease;
     white-space: nowrap;
-    /* border: 1px solid transparent;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    background: linear-gradient(white, white) padding-box,        linear-gradient(90deg, rgba(0, 185, 255, 1) 0%, rgba(255, 109, 176, 1) 58%, rgba(0, 212, 255, 1) 100%) border-box; */
 }
 
 .nav-links ul li a:hover {
@@ -602,7 +597,6 @@ header {
     }
 }
 
-
 /* Hero Section */
 .hero {
     position: relative;
@@ -786,7 +780,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
@@ -806,7 +800,7 @@ header {
     margin-top: 20px;
     width: 90%;
     max-width: 1200px;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .service-card {
@@ -1324,6 +1318,7 @@ header {
     margin: auto;
     padding: 20px;
 }
+
 .cal {
     display: flex;
     justify-content: space-between;
@@ -1399,7 +1394,8 @@ header {
         padding: 20px;
     }
 
-    .cal-item, .cal-iframe {
+    .cal-item,
+    .cal-iframe {
         width: 100%;
         text-align: center;
     }
@@ -1416,6 +1412,7 @@ header {
         margin-bottom: 15px;
     }
 }
+
 /* Cal End */
 
 .btn-firstall {
@@ -1647,7 +1644,9 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+
 @media (max-width: 768px) {
+
     /* Adjust carousel container */
     .carousel-container3 {
         width: 100%;
@@ -1668,12 +1667,14 @@ button.next-btn:hover {
 
     /* Reduce slide height */
     .carousel-slides3 {
-        height: 400px; /* Adjusted for tablets */
+        height: 400px;
+        /* Adjusted for tablets */
         max-width: 100%;
     }
 
     .carousel-slide3 {
-        height: 400px; /* Adjusted for tablets */
+        height: 400px;
+        /* Adjusted for tablets */
     }
 
     .carousel-slide3 img {
