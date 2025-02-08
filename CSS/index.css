@@ -766,7 +766,7 @@ html, body {
 } */
 
 /* Services Section Start */
-/* .services {
+.services {
     position: relative;
     background: none;
     background-image: url("/HOMESPECTOR/img/hero-bg2.jpg");
@@ -882,10 +882,10 @@ html, body {
         margin: 10px auto;
         padding: 15px;
     }
-} */
+}
 
 /* Services Section Start */
-.services {
+/* .services {
     background: none;
     background-image: url('https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg');
     background-size: cover;
@@ -985,7 +985,7 @@ html, body {
         margin: 10px auto;
         padding: 15px;
     }
-}
+} */
 
 
 
@@ -1686,73 +1686,6 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
-@media (max-width: 480px) {
-    /* Ensure the carousel container is fully responsive */
-    .carousel-container3 {
-        width: 100%;
-        padding: 20px;
-        margin: 20px 0;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-
-    /* Adjust the thumbnails container */
-    .carousel-thumbnails {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        overflow-x: hidden; /* Prevents extra thumbnails from overflowing */
-        scroll-snap-type: x mandatory;
-        padding: 10px;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    /* Ensure only 2 thumbnails are visible at a time */
-    .carousel-thumbnails .thumbnail {
-        width: 40%;
-        max-width: 120px;
-        height: auto;
-        scroll-snap-align: center;
-        flex-shrink: 0;
-        display: block;
-    }
-
-    /* Hide any thumbnails beyond the first 2 */
-    .carousel-thumbnails .thumbnail:nth-child(n+3) {
-        display: none;
-    }
-
-    /* Navigation Buttons */
-    button.prev-btn,
-    button.next-btn {
-        font-size: 18px;
-        padding: 10px 12px;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Adjust carousel slides */
-    .carousel-slides3 {
-        height: 400px;
-        max-width: 100%;
-    }
-
-    .carousel-slide3 {
-        height: 400px;
-    }
-
-    .carousel-slide3 img {
-        height: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-    }
-}
-
-
 
 
 /* Article */
