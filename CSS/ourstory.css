@@ -524,6 +524,14 @@ header {
 }
 
 
+/* Fix Overflow Issue */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin: 0;
+  padding: 0;
+}
+
 /*line*/
 .contact-container {
   display: flex;
@@ -924,13 +932,7 @@ p {
     text-align: left;
   }
 }
-/* Fix Overflow Issue */
-html, body {
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll */
-  margin: 0;
-  padding: 0;
-}
+
 
 
 
