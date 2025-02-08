@@ -528,15 +528,12 @@ header {
     color: var(--hover-color);
 }
 
-
-/* Fix Overflow Issue */
-html, body {
+/* html, body {
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-}
-
+} */
 /*line*/
 .contact-container {
     display: flex;
@@ -767,10 +764,10 @@ html, body {
 } */
 
 /* Services Section Start */
-.services {
+/* .services {
     position: relative;
     background: none;
-    background-image: url("/HOMESPECTOR/img/hero-bg3.jpg");
+    background-image: url("/HOMESPECTOR/img/hero-bg2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -883,10 +880,10 @@ html, body {
         margin: 10px auto;
         padding: 15px;
     }
-}
+} */
 
 /* Services Section Start */
-/* .services {
+.services {
     background: none;
     background-image: url('https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg');
     background-size: cover;
@@ -986,7 +983,7 @@ html, body {
         margin: 10px auto;
         padding: 15px;
     }
-} */
+}
 
 
 
@@ -1394,8 +1391,8 @@ html, body {
 }
 
 .cal-iframe {
-    width: 55%;
-    height: 800px;
+    width: 52%;
+    height: 700px;
     border: none;
     border-radius: 8px;
 }
@@ -1408,7 +1405,7 @@ html, body {
     }
 
     .cal-item, .cal-iframe {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
