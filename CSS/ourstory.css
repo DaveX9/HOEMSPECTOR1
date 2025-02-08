@@ -672,7 +672,7 @@ header {
 @media (max-width: 768px) {
   .story-header {
     height: 70vh;
-    /* Reduce height for mobile */
+    width: 100%;
   }
 
   .story-header .header-title {
