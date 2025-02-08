@@ -71,14 +71,14 @@
             <?php
             $contentFile = 'content_data.json';
             $default_content = [
-                ["title" => "ตกแต่งบ้านหรู สไตล์ Modern classic", "image" => "/HOMESPECTOR1/img/thumbnail1.jpg", "category" => "Roof"],
-                ["title" => "Review SEtthasiri", "image" => "/HOMESPECTOR1/img/thumbnail2.jpg", "category" => "Price"],
-                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR1/img/thumbnail3.jpg", "category" => "Price"],
-                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR1/img/thumbnail2.jpg", "category" => "Process"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai1.jpg", "category" => "Interior"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/thumbnail1.jpg", "category" => "Interior"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai1.jpg", "category" => "Interior"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/thumbnail3.jpg", "category" => "Interior"]
+                ["title" => "ตกแต่งบ้านหรู สไตล์ Modern classic", "image" => "/HOMESPECTOR/img/thumbnail1.jpg", "category" => "Roof"],
+                ["title" => "Review SEtthasiri", "image" => "/HOMESPECTOR/img/thumbnail2.jpg", "category" => "Price"],
+                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR/img/thumbnail3.jpg", "category" => "Price"],
+                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR/img/thumbnail2.jpg", "category" => "Process"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai1.jpg", "category" => "Interior"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/thumbnail1.jpg", "category" => "Interior"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai1.jpg", "category" => "Interior"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/thumbnail3.jpg", "category" => "Interior"]
             ];
 
             foreach ($default_content as $content) {

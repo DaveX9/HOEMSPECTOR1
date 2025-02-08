@@ -96,8 +96,8 @@
         <div id="video-container">
             <?php
             $default_videos = [
-                ["title" => "Mindset ที่จะเปลี่ยนชีวิตคุณ | EP.28", "image" => "/HOMESPECTOR1/img/thumbnail1.jpg", "category" => "Related", "youtube_url" => "https://www.youtube.com/embed/oAPAWQvzN6Y", "tags" => "SCASSET, รีวิวบ้าน"],
-                ["title" => "พาดูคฤหาสน์หรู 50 ล้าน!", "image" => "/HOMESPECTOR1/img/thumbnail2.jpg", "category" => "Related", "youtube_url" => "https://www.youtube.com/embed/oAPAWQvzN6Y", "tags" => "ตตรวจบ้าน, การตลาดวันละหลัง"]
+                ["title" => "Mindset ที่จะเปลี่ยนชีวิตคุณ | EP.28", "image" => "/HOMESPECTOR/img/thumbnail1.jpg", "category" => "Related", "youtube_url" => "https://www.youtube.com/embed/oAPAWQvzN6Y", "tags" => "SCASSET, รีวิวบ้าน"],
+                ["title" => "พาดูคฤหาสน์หรู 50 ล้าน!", "image" => "/HOMESPECTOR/img/thumbnail2.jpg", "category" => "Related", "youtube_url" => "https://www.youtube.com/embed/oAPAWQvzN6Y", "tags" => "ตตรวจบ้าน, การตลาดวันละหลัง"]
             ];
 
             foreach ($default_videos as $video) {
@@ -135,8 +135,8 @@
         <div id="carousel-container">
             <?php
             $default_carousel = [
-                ["title" => "รีวิวตรวจบ้านดารา", "image" => "/HOMESPECTOR1/img/thumbnail4.jpg", "description" => "รีวิวการตรวจบ้านเดี่ยว..."],
-                ["title" => "ต.ตรวจบ้าน x การตลาดวันละตอน", "image" => "/HOMESPECTOR1/img/carousel_thumb1.jpg", "description" => "พาดูบ้านหรู 89 ล้าน!"],
+                ["title" => "รีวิวตรวจบ้านดารา", "image" => "/HOMESPECTOR/img/thumbnail4.jpg", "description" => "รีวิวการตรวจบ้านเดี่ยว..."],
+                ["title" => "ต.ตรวจบ้าน x การตลาดวันละตอน", "image" => "/HOMESPECTOR/img/carousel_thumb1.jpg", "description" => "พาดูบ้านหรู 89 ล้าน!"],
             ];
 
             foreach ($default_carousel as $carousel) {

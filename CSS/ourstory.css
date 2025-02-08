@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
+@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 :root {
   --background-color: #ffffff;
@@ -684,7 +684,7 @@ header {
 .vision-mission {
   text-align: center;
   padding: 60px 20px;
-  background: url('https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg') no-repeat center center;
+  background: url('https:/www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg') no-repeat center center;
   background-size: cover;
   color: var(--font-color);
   position: relative;

@@ -68,7 +68,7 @@
                 <label>Role:</label>
                 <input type="text" name="founder_roles[]" value="Founder & Managing Director">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR1/img/staff/CEO.jpg" alt="Founder 1" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/CEO.jpg" alt="Founder 1" style="max-width: 150px;">
                 <input type="file" name="founder_images[]" accept="image/*">
             </div>
 
@@ -78,7 +78,7 @@
                 <label>Role:</label>
                 <input type="text" name="founder_roles[]" value="Co-Founder & Civil Engineer">
                 <label>Image:</label>
-                <img src="/HOMESPECTOR1/img/staff/Co-founder.jpg" alt="Founder 2" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Co-founder.jpg" alt="Founder 2" style="max-width: 150px;">
                 <input type="file" name="founder_images[]" accept="image/*">
             </div>
         </div>
@@ -87,43 +87,43 @@
         <div id="team-container">
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Charnthawat">
-                <img src="/HOMESPECTOR1/img/staff/Charnthawat.jpg" alt="Team Member 1" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Charnthawat.jpg" alt="Team Member 1" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Supapat">
-                <img src="/HOMESPECTOR1/img/staff/Supapat.jpg" alt="Team Member 2" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Supapat.jpg" alt="Team Member 2" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Jakkarin">
-                <img src="/HOMESPECTOR1/img/staff/Jakkarin.jpg" alt="Team Member 3" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Jakkarin.jpg" alt="Team Member 3" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Waroj">
-                <img src="/HOMESPECTOR1/img/staff/Waroj.jpg" alt="Team Member 4" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Waroj.jpg" alt="Team Member 4" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Watanon">
-                <img src="/HOMESPECTOR1/img/staff/Watanon.jpg" alt="Team Member 5" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Watanon.jpg" alt="Team Member 5" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Phonthewa">
-                <img src="/HOMESPECTOR1/img/staff/Phonthewa.JPG" alt="Team Member 6" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Phonthewa.JPG" alt="Team Member 6" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>
             <div class="team-member">
                 <input type="text" name="team_names[]" value="Chonsawat">
-                <img src="/HOMESPECTOR1/img/staff/Chonsawat.jpg" alt="Team Member 7" style="max-width: 150px;">
+                <img src="/HOMESPECTOR/img/staff/Chonsawat.jpg" alt="Team Member 7" style="max-width: 150px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="remove-team-btn">Delete</button>
             </div>

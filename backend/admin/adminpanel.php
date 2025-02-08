@@ -126,15 +126,15 @@
                 <div class="carousel-preview" id="carousel-preview">
                     <!-- Default images -->
                     <div class="carousel-item" id="carousel-item-1">
-                        <img src="/HOMESPECTOR1/img/carousel4.jpg" alt="Carousel Image 1" style="max-width: 200px;">
+                        <img src="/HOMESPECTOR/img/carousel4.jpg" alt="Carousel Image 1" style="max-width: 200px;">
                         <button type="button" class="delete-btn" onclick="deleteImage(1)">Delete</button>
                     </div>
                     <div class="carousel-item" id="carousel-item-2">
-                        <img src="/HOMESPECTOR1/img/carousel2.jpg" alt="Carousel Image 2" style="max-width: 200px;">
+                        <img src="/HOMESPECTOR/img/carousel2.jpg" alt="Carousel Image 2" style="max-width: 200px;">
                         <button type="button" class="delete-btn" onclick="deleteImage(2)">Delete</button>
                     </div>
                     <div class="carousel-item" id="carousel-item-3">
-                        <img src="/HOMESPECTOR1/img/carousel3.jpg" alt="Carousel Image 3" style="max-width: 200px;">
+                        <img src="/HOMESPECTOR/img/carousel3.jpg" alt="Carousel Image 3" style="max-width: 200px;">
                         <button type="button" class="delete-btn" onclick="deleteImage(3)">Delete</button>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
             <div class="form-group">
                 <label for="inspection-image">Current Image:</label>
                 <div class="image-preview">
-                    <img id="current-inspection-image" src="/HOMESPECTOR1/img/how.png" alt="Current Image" style="max-width: 200px;" />
+                    <img id="current-inspection-image" src="/HOMESPECTOR/img/how.png" alt="Current Image" style="max-width: 200px;" />
                 </div>
                 <label for="new-inspection-image">Upload New Image:</label>
                 <input type="file" id="new-inspection-image" name="inspection_image" accept="image/*" />
@@ -306,7 +306,7 @@
             <div class="form-group">
                 <label for="main-image">Main Image:</label>
                 <div class="image-preview">
-                    <img id="current-main-image" src="/HOMESPECTOR1/img/carousel2.1.jpg" alt="Main Image" style="max-width: 200px;" />
+                    <img id="current-main-image" src="/HOMESPECTOR/img/carousel2.1.jpg" alt="Main Image" style="max-width: 200px;" />
                 </div>
                 <label for="new-main-image">Upload New Main Image:</label>
                 <input type="file" id="new-main-image" name="main_image" accept="image/*" />
@@ -316,21 +316,21 @@
             <div class="form-group">
                 <label for="certification-1">Certification 1 Image:</label>
                 <div class="image-preview">
-                    <img id="certification-1-preview" src="/HOMESPECTOR1/img/certified1.png" alt="Certification 1" style="max-width: 100px;" />
+                    <img id="certification-1-preview" src="/HOMESPECTOR/img/certified1.png" alt="Certification 1" style="max-width: 100px;" />
                 </div>
                 <input type="file" id="certification-1" name="certification_1" accept="image/*" />
             </div>
             <div class="form-group">
                 <label for="certification-2">Certification 2 Image:</label>
                 <div class="image-preview">
-                    <img id="certification-2-preview" src="/HOMESPECTOR1/img/certified2.png" alt="Certification 2" style="max-width: 100px;" />
+                    <img id="certification-2-preview" src="/HOMESPECTOR/img/certified2.png" alt="Certification 2" style="max-width: 100px;" />
                 </div>
                 <input type="file" id="certification-2" name="certification_2" accept="image/*" />
             </div>
             <div class="form-group">
                 <label for="certification-3">Certification 3 Image:</label>
                 <div class="image-preview">
-                    <img id="certification-3-preview" src="/HOMESPECTOR1/img/certified3.png" alt="Certification 3" style="max-width: 100px;" />
+                    <img id="certification-3-preview" src="/HOMESPECTOR/img/certified3.png" alt="Certification 3" style="max-width: 100px;" />
                 </div>
                 <input type="file" id="certification-3" name="certification_3" accept="image/*" />
             </div>
@@ -413,7 +413,7 @@
                     <h3>Slide 1 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(1)">Delete</button></h3>
                     <label for="carousel-upload-1">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-1" src="/HOMESPECTOR1/img/carousel_thumb3.webp" alt="Feature 1" style="max-width: 200px;" />
+                        <img id="carousel-preview-1" src="/HOMESPECTOR/img/carousel_thumb3.webp" alt="Feature 1" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-1" name="carousel_image_1" accept="image/*" />
                     <label for="carousel-title-1">Title (H3):</label>
@@ -426,7 +426,7 @@
                     <h3>Slide 2 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(2)">Delete</button></h3>
                     <label for="carousel-upload-2">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-2" src="/HOMESPECTOR1/img/carousel_thumb1.jpg" alt="Feature 2" style="max-width: 200px;" />
+                        <img id="carousel-preview-2" src="/HOMESPECTOR/img/carousel_thumb1.jpg" alt="Feature 2" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-2" name="carousel_image_2" accept="image/*" />
                     <label for="carousel-title-2">Title (H3):</label>
@@ -440,7 +440,7 @@
                     <h3>Slide 3 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(3)">Delete</button></h3>
                     <label for="carousel-upload-3">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-3" src="/HOMESPECTOR1/img/carousel_thumb2.jpg" alt="Feature 3" style="max-width: 200px;" />
+                        <img id="carousel-preview-3" src="/HOMESPECTOR/img/carousel_thumb2.jpg" alt="Feature 3" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-3" name="carousel_image_3" accept="image/*" />
                     <label for="carousel-title-3">Title (H3):</label>
@@ -454,7 +454,7 @@
                     <h3>Slide 4 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(4)">Delete</button></h3>
                     <label for="carousel-upload-4">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-4" src="/HOMESPECTOR1/img/thumbnail1.jpg" alt="Feature 4" style="max-width: 200px;" />
+                        <img id="carousel-preview-4" src="/HOMESPECTOR/img/thumbnail1.jpg" alt="Feature 4" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-4" name="carousel_image_4" accept="image/*" />
                     <label for="carousel-title-4">Title (H3):</label>
@@ -468,7 +468,7 @@
                     <h3>Slide 5 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(5)">Delete</button></h3>
                     <label for="carousel-upload-5">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-5" src="/HOMESPECTOR1/img/thumbnail3.jpg" alt="Feature 5" style="max-width: 200px;" />
+                        <img id="carousel-preview-5" src="/HOMESPECTOR/img/thumbnail3.jpg" alt="Feature 5" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-5" name="carousel_image_5" accept="image/*" />
                     <label for="carousel-title-5">Title (H3):</label>
@@ -481,7 +481,7 @@
                     <h3>Slide 6 <button type="button" class="delete-btn" onclick="deleteCarouselSlide(6)">Delete</button></h3>
                     <label for="carousel-upload-6">Image:</label>
                     <div class="image-preview">
-                        <img id="carousel-preview-6" src="/HOMESPECTOR1/img/thumbnail4.jpg" alt="Feature 6" style="max-width: 200px;" />
+                        <img id="carousel-preview-6" src="/HOMESPECTOR/img/thumbnail4.jpg" alt="Feature 6" style="max-width: 200px;" />
                     </div>
                     <input type="file" id="carousel-upload-6" name="carousel_image_6" accept="image/*" />
                     <label for="carousel-title-6">Title (H3):</label>
@@ -499,7 +499,7 @@
                         <h3>Thumbnail 1 <button type="button" class="delete-btn" onclick="deleteThumbnail(1)">Delete</button></h3>
                         <label for="thumbnail-upload-1">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-1" src="/HOMESPECTOR1/img/carousel_thumb3.webp" alt="Thumb 1" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-1" src="/HOMESPECTOR/img/carousel_thumb3.webp" alt="Thumb 1" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-1" name="thumbnail_image_1" accept="image/*" />
                     </div>
@@ -507,7 +507,7 @@
                         <h3>Thumbnail 2 <button type="button" class="delete-btn" onclick="deleteThumbnail(2)">Delete</button></h3>
                         <label for="thumbnail-upload-2">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-2" src="/HOMESPECTOR1/img/carousel_thumb1.jpg" alt="Thumb 2" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-2" src="/HOMESPECTOR/img/carousel_thumb1.jpg" alt="Thumb 2" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-2" name="thumbnail_image_2" accept="image/*" />
                     </div>
@@ -515,7 +515,7 @@
                         <h3>Thumbnail 3 <button type="button" class="delete-btn" onclick="deleteThumbnail(3)">Delete</button></h3>
                         <label for="thumbnail-upload-3">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-3" src="/HOMESPECTOR1/img/carousel_thumb2.jpg" alt="Thumb 3" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-3" src="/HOMESPECTOR/img/carousel_thumb2.jpg" alt="Thumb 3" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-3" name="thumbnail_image_3" accept="image/*" />
                     </div>
@@ -523,7 +523,7 @@
                         <h3>Thumbnail 4 <button type="button" class="delete-btn" onclick="deleteThumbnail(4)">Delete</button></h3>
                         <label for="thumbnail-upload-4">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-4" src="/HOMESPECTOR1/img/thumbnail1.jpg" alt="Thumb 4" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-4" src="/HOMESPECTOR/img/thumbnail1.jpg" alt="Thumb 4" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-4" name="thumbnail_image_4" accept="image/*" />
                     </div>
@@ -531,7 +531,7 @@
                         <h3>Thumbnail 5 <button type="button" class="delete-btn" onclick="deleteThumbnail(5)">Delete</button></h3>
                         <label for="thumbnail-upload-5">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-5" src="/HOMESPECTOR1/img/thumbnail3.jpg" alt="Thumb 5" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-5" src="/HOMESPECTOR/img/thumbnail3.jpg" alt="Thumb 5" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-5" name="thumbnail_image_5" accept="image/*" />
                     </div>
@@ -539,7 +539,7 @@
                         <h3>Thumbnail 6 <button type="button" class="delete-btn" onclick="deleteThumbnail(6)">Delete</button></h3>
                         <label for="thumbnail-upload-6">Image:</label>
                         <div class="image-preview">
-                            <img id="thumbnail-preview-6" src="/HOMESPECTOR1/img/thumbnail4.jpg" alt="Thumb 6" style="max-width: 100px;" />
+                            <img id="thumbnail-preview-6" src="/HOMESPECTOR/img/thumbnail4.jpg" alt="Thumb 6" style="max-width: 100px;" />
                         </div>
                         <input type="file" id="thumbnail-upload-6" name="thumbnail_image_6" accept="image/*" />
                     </div>
@@ -659,7 +659,7 @@
                     <!-- Review 1 -->
                     <div class="carousel-item-group" id="carousel-item-1">
                         <label for="review-image-1">Review Image 1:</label>
-                        <img id="review-preview-1" src="/HOMESPECTOR1/icon/ICON/review1.png" alt="Review 1" style="max-width: 200px;">
+                        <img id="review-preview-1" src="/HOMESPECTOR/icon/ICON/review1.png" alt="Review 1" style="max-width: 200px;">
                         <input type="file" id="review-image-1" name="review_image_1" accept="image/*">
                         <button type="button" class="delete-btn" onclick="deleteReviewImage(1)">Delete</button>
                     </div>
@@ -786,13 +786,13 @@
                     <!-- Default Images -->
                     <div class="image-slot" id="image-slot-1">
                         <label for="image-upload-1">Image 1:</label>
-                        <img src="/HOMESPECTOR1/img/app1.png" alt="App Preview 1" style="max-width: 200px;" id="preview-1">
+                        <img src="/HOMESPECTOR/img/app1.png" alt="App Preview 1" style="max-width: 200px;" id="preview-1">
                         <input type="file" id="image-upload-1" name="image_1" accept="image/*">
                         <button type="button" class="delete-btn" onclick="deleteImage(1)">Delete</button>
                     </div>
                     <div class="image-slot" id="image-slot-2">
                         <label for="image-upload-2">Image 2:</label>
-                        <img src="/HOMESPECTOR1/img/app2.png" alt="App Preview 2" style="max-width: 200px;" id="preview-2">
+                        <img src="/HOMESPECTOR/img/app2.png" alt="App Preview 2" style="max-width: 200px;" id="preview-2">
                         <input type="file" id="image-upload-2" name="image_2" accept="image/*">
                         <button type="button" class="delete-btn" onclick="deleteImage(2)">Delete</button>
                     </div>

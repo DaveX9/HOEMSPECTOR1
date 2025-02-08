@@ -67,7 +67,7 @@
                 <label>Team Member 1:</label>
                 <input type="text" name="team_names[]" value="Sumes Cheethamroongchai">
                 <input type="text" name="team_roles[]" value="Founder/CEO">
-                <img src="/HOMESPECTOR1/img/staff/CEO.jpg" alt="Team Member 1" style="max-width: 200px;">
+                <img src="/HOMESPECTOR/img/staff/CEO.jpg" alt="Team Member 1" style="max-width: 200px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="delete-btn" onclick="removeTeamMember(this)">Delete</button>
             </div>
@@ -75,7 +75,7 @@
                 <label>Team Member 2:</label>
                 <input type="text" name="team_names[]" value="Suthep Cheethamroongchai">
                 <input type="text" name="team_roles[]" value="Co-founder">
-                <img src="/HOMESPECTOR1/img/staff/Co-founder.jpg" alt="Team Member 2" style="max-width: 200px;">
+                <img src="/HOMESPECTOR/img/staff/Co-founder.jpg" alt="Team Member 2" style="max-width: 200px;">
                 <input type="file" name="team_images[]" accept="image/*">
                 <button type="button" class="delete-btn" onclick="removeTeamMember(this)">Delete</button>
             </div>

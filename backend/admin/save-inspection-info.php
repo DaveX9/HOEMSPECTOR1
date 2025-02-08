@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'title' => $title,
         'description' => $description,
         'button_text' => $buttonText,
-        'image' => $imagePath ?? '/HOMESPECTOR1/img/how.png', // Fallback to default image
+        'image' => $imagePath ?? '/HOMESPECTOR/img/how.png', // Fallback to default image
     ];
 
     file_put_contents('inspection-info.json', json_encode($data, JSON_PRETTY_PRINT));

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Thai:wght@100..900&display=swap');
+@import url('https:/fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 :root {
     --background-color: #ffffff;
@@ -537,7 +537,7 @@ header {
     z-index: 1000;
 }
 
-.contact-item1{
+.contact-item1 {
     display: inline-flex;
     align-items: center;
     justify-content: center;

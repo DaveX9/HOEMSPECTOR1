@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Save carousel images and text
     for ($i = 1; $i <= 2; $i++) { // Adjust the loop limit based on the number of slides
-        $imagePath = $_POST["carousel_image_$i"] ?? "/HOMESPECTOR1/img/thumbnail$i.jpg"; // Default image path
+        $imagePath = $_POST["carousel_image_$i"] ?? "/HOMESPECTOR/img/thumbnail$i.jpg"; // Default image path
 
         if (isset($_FILES["carousel_image_$i"]) && $_FILES["carousel_image_$i"]['error'] === UPLOAD_ERR_OK) {
             $fileName = basename($_FILES["carousel_image_$i"]['name']);
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Save thumbnails
     $thumbnails = [];
     for ($i = 1; $i <= 2; $i++) { // Adjust the loop limit based on the number of thumbnails
-        $thumbnailPath = $_POST["thumbnail_$i"] ?? "/HOMESPECTOR1/img/thumbnail$i.jpg"; // Default thumbnail path
+        $thumbnailPath = $_POST["thumbnail_$i"] ?? "/HOMESPECTOR/img/thumbnail$i.jpg"; // Default thumbnail path
 
         if (isset($_FILES["thumbnail_$i"]) && $_FILES["thumbnail_$i"]['error'] === UPLOAD_ERR_OK) {
             $fileName = basename($_FILES["thumbnail_$i"]['name']);

@@ -43,16 +43,16 @@ if ($mysqli->affected_rows) {
         $mail->Port = 587;
 
         // Email content
-        $mail->setFrom("sahadevthapawork@gmail.com", "THOMESPECTOR1");
+        $mail->setFrom("sahadevthapawork@gmail.com", "ThomeSpector");
         $mail->addAddress($email);
         $mail->Subject = "Password Reset";
         $mail->isHTML(true);
         $mail->Body = <<<END
-            <p>Click <a href="http://localhost/HOMESPECTOR1/backend/reset-password.php?token=$token">here</a> 
+            <p>Click <a href="http://localhost/HOMESPECTOR/backend/reset-password.php?token=$token">here</a> 
             to reset your password. This link will expire in 30 minutes.</p>
         END;
 
-        $mail->AltBody = "Click this link to reset your password: http://localhost/HOMESPECTOR1/backend/reset-password.php?token=$token";
+        $mail->AltBody = "Click this link to reset your password: http://localhost/HOMESPECTOR/backend/reset-password.php?token=$token";
 
         // Send email
         $mail->send();

@@ -10,10 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="icon" type="image/x-icon" href="/HOMESPECTOR1/img/favicon1.png">
+    <link rel="icon" type="image/x-icon" href="/HOMESPECTOR/img/favicon1.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-    <link rel="stylesheet" href="/HOMESPECTOR1/CSS/index.css">
+    <link rel="stylesheet" href="/HOMESPECTOR/CSS/index.css">
     <title>Header Design</title>
 </head>
 <style>
@@ -89,22 +89,22 @@
                         <!-- Social Icons -->
                         <div class="social-icons">
                             <a href="https://www.facebook.com/t.homeinspector/?locale=th_TH">
-                                <img src="/HOMESPECTOR1/icon/ICON/Fb.png" alt="Facebook">
+                                <img src="/HOMESPECTOR/icon/ICON/Fb.png" alt="Facebook">
                             </a>
                             <a href="https://www.instagram.com/t.homeinspector/">
-                                <img src="/HOMESPECTOR1/icon/ICON/IG.png" alt="Instagram">
+                                <img src="/HOMESPECTOR/icon/ICON/IG.png" alt="Instagram">
                             </a>
                             <a href="https://page.line.me/t.home?openQrModal=true">
-                                <img src="/HOMESPECTOR1/icon/ICON/line.png" alt="Line">
+                                <img src="/HOMESPECTOR/icon/ICON/line.png" alt="Line">
                             </a>
                             <a href="tel:082-045-6165">
-                                <img src="/HOMESPECTOR1/icon/ICON/phone.png" alt="Phone">
+                                <img src="/HOMESPECTOR/icon/ICON/phone.png" alt="Phone">
                             </a>
                         </div>
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="/HOMESPECTOR1/Homepage/index.html">
-                                <img src="/HOMESPECTOR1/img/s1.png" alt="T. Home Inspector Logo">
+                            <a href="/HOMESPECTOR/Homepage/index.html">
+                                <img src="/HOMESPECTOR/img/s1.png" alt="T. Home Inspector Logo">
                             </a>
                         </div>
 
@@ -112,10 +112,10 @@
                             <!-- Language Switcher -->
                             <div class="language-switcher">
                                 <a href="?lang=th" class="lang-link">
-                                    <img src="/HOMESPECTOR1/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
+                                    <img src="/HOMESPECTOR/icon/ICON/thai.png" alt="Thai" title="ภาษาไทย">
                                 </a>
                                 <a href="?lang=en" class="lang-link">
-                                    <img src="/HOMESPECTOR1/icon/ICON/eng.png" alt="English" title="English">
+                                    <img src="/HOMESPECTOR/icon/ICON/eng.png" alt="English" title="English">
                                 </a>
                             </div>
 

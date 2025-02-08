@@ -96,7 +96,7 @@
         </div>
         <div class="form-group">
             <label for="contact-email">Email:</label>
-            <input type="email" id="contact-email" name="contact_email" value="contact@HOMESPECTOR1.com">
+            <input type="email" id="contact-email" name="contact_email" value="contact@homespector.com">
         </div>
 
         <h2>Review Page</h2>
@@ -114,7 +114,7 @@
         <h2>Main Review Image</h2>
         <div class="form-group">
             <label>Current Image:</label>
-            <img src="/HOMESPECTOR1/img/landhouse1.jpg" alt="Review Image" class="preview-image">
+            <img src="/HOMESPECTOR/img/landhouse1.jpg" alt="Review Image" class="preview-image">
             <input type="file" name="review_main_image" accept="image/*">
         </div>
             <!-- Include Froala Editor -->
@@ -128,10 +128,10 @@
                 <?php
                 $galleryFile = 'gallery_data.json';
                 $defaultImages = [
-                    "/HOMESPECTOR1/img/after_review/reviewphoto1.png" => "ตรวจสอบโครงสร้างพื้น",
-                    "/HOMESPECTOR1/img/after_review/reviewphoto2.png" => "ตรวจสอบการติดตั้งรั้ว",
-                    "/HOMESPECTOR1/img/after_review/reviewphoto3.png" => "ตรวจสอบการระบายน้ำ",
-                    "/HOMESPECTOR1/img/after_review/reviewphoto4.png" => "ตรวจสอบระบบไฟฟ้า",
+                    "/HOMESPECTOR/img/after_review/reviewphoto1.png" => "ตรวจสอบโครงสร้างพื้น",
+                    "/HOMESPECTOR/img/after_review/reviewphoto2.png" => "ตรวจสอบการติดตั้งรั้ว",
+                    "/HOMESPECTOR/img/after_review/reviewphoto3.png" => "ตรวจสอบการระบายน้ำ",
+                    "/HOMESPECTOR/img/after_review/reviewphoto4.png" => "ตรวจสอบระบบไฟฟ้า",
                 ];
 
                 // Check if the file exists before reading it

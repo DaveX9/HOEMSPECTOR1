@@ -61,15 +61,15 @@
             <!-- Default Reviews -->
             <?php
             $default_reviews = [
-                ["title" => "ตกแต่งบ้านหรู สไตล์ Modern classic", "image" => "/HOMESPECTOR1/img/landhouse1.jpg", "category" => "ทัวร์บ้าน"],
-                ["title" => "Review SEtthasiri", "image" => "/HOMESPECTOR1/img/landhouse1.jpg", "category" => "ทัวร์บ้าน"],
-                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR1/img/sansiri1.png", "category" => "Modern Luxury: 500,000-800,000"],
-                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR1/img/sansiri1.png", "category" => "Modern Luxury: 800,000-1,300,000"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai1.jpg", "category" => "Modern Luxury: 1,300,000-2,000,000"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai2.jpg", "category" => "Modern Luxury: 2,000,000-5,000,000"],
-                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR1/img/property-perfect1.jpg", "category" => "Modern Classic: 1,000,000-2,000,000"],
-                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR1/img/apthai3.jpg", "category" => "Modern Classic & Classic luxury: 2,000,000-5,000,000"],
-                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR1/img/property-profect2.jpg", "category" => "Modern Classic & Classic luxury: 2,000,000-5,000,000"]
+                ["title" => "ตกแต่งบ้านหรู สไตล์ Modern classic", "image" => "/HOMESPECTOR/img/landhouse1.jpg", "category" => "ทัวร์บ้าน"],
+                ["title" => "Review SEtthasiri", "image" => "/HOMESPECTOR/img/landhouse1.jpg", "category" => "ทัวร์บ้าน"],
+                ["title" => "Review Ladawan", "image" => "/HOMESPECTOR/img/sansiri1.png", "category" => "Modern Luxury: 500,000-800,000"],
+                ["title" => "Review SC Asset", "image" => "/HOMESPECTOR/img/sansiri1.png", "category" => "Modern Luxury: 800,000-1,300,000"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai1.jpg", "category" => "Modern Luxury: 1,300,000-2,000,000"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai2.jpg", "category" => "Modern Luxury: 2,000,000-5,000,000"],
+                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR/img/property-perfect1.jpg", "category" => "Modern Classic: 1,000,000-2,000,000"],
+                ["title" => "Review Ap Thai", "image" => "/HOMESPECTOR/img/apthai3.jpg", "category" => "Modern Classic & Classic luxury: 2,000,000-5,000,000"],
+                ["title" => "Review Property Profect", "image" => "/HOMESPECTOR/img/property-profect2.jpg", "category" => "Modern Classic & Classic luxury: 2,000,000-5,000,000"]
                 ];
 
             foreach ($default_reviews as $review) {
