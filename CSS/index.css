@@ -1687,92 +1687,68 @@ button.next-btn:hover {
     background-color: #ff5c05;
 }
 @media (max-width: 480px) {
-    /* Adjust Carousel Container */
+    /* Ensure the carousel container is fully responsive */
     .carousel-container3 {
         width: 100%;
         padding: 20px;
         margin: 20px 0;
         border-radius: 8px;
+        overflow: hidden;
     }
 
-    /* Center and adjust the "ดูทั้งหมด" button */
-    .btn-all {
-        position: static;
+    /* Adjust the thumbnails container */
+    .carousel-thumbnails {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        overflow-x: hidden; /* Prevents extra thumbnails from overflowing */
+        scroll-snap-type: x mandatory;
+        padding: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Ensure only 2 thumbnails are visible at a time */
+    .carousel-thumbnails .thumbnail {
+        width: 40%;
+        max-width: 120px;
+        height: auto;
+        scroll-snap-align: center;
+        flex-shrink: 0;
         display: block;
-        text-align: center;
-        margin: 15px auto;
-        font-size: 14px;
-        padding: 10px 18px;
     }
 
-    /* Reduce slide height */
+    /* Hide any thumbnails beyond the first 2 */
+    .carousel-thumbnails .thumbnail:nth-child(n+3) {
+        display: none;
+    }
+
+    /* Navigation Buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 18px;
+        padding: 10px 12px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Adjust carousel slides */
     .carousel-slides3 {
-        height: 400px; /* Adjusted for smartphones */
+        height: 400px;
         max-width: 100%;
     }
 
     .carousel-slide3 {
-        height: 400px; /* Adjusted for smartphones */
+        height: 400px;
     }
 
     .carousel-slide3 img {
         height: 100%;
         object-fit: cover;
         border-radius: 8px;
-    }
-
-    /* Adjust text content */
-    .slide-content3 {
-        bottom: 15px;
-        left: 15px;
-        width: 70%;
-        padding: 12px;
-    }
-
-    .slide-content3 h3 {
-        font-size: 18px;
-        margin-bottom: 8px;
-    }
-
-    .slide-content3 p {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    .slide-content3 .btn {
-        font-size: 14px;
-        padding: 8px 14px;
-    }
-
-    /* Adjust thumbnails */
-    .carousel-thumbnails {
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        padding: 10px;
-        max-width: 90%;
-        margin: 0 auto;
-    }
-
-    .thumbnail {
-        width: 85px;
-        height: 85px;
-        scroll-snap-align: center;
-        flex-shrink: 0;
-    }
-
-    /* Display only 1-2 thumbnails at a time */
-    .carousel-thumbnails .thumbnail:nth-child(n+3) {
-        display: none;
-    }
-
-    /* Resize navigation buttons */
-    button.prev-btn,
-    button.next-btn {
-        font-size: 16px;
-        padding: 10px 14px;
     }
 }
 
@@ -2189,6 +2165,78 @@ button.next-btn:hover {
     border: 1px solid #ddd;
     border-top: none;
     background-color: #fafafa;
+}
+
+@media (max-width: 768px) {
+    .faq {
+        padding: 30px 15px; /* Reduce padding for smaller screens */
+    }
+
+    .faq-container {
+        max-width: 100%; /* Ensure full width on small screens */
+        text-align: center;
+    }
+
+    .faq-title {
+        font-size: 28px; /* Reduce title size */
+    }
+
+    .faq-subtitle {
+        font-size: 16px;
+        margin-bottom: 20px; /* Adjust spacing */
+    }
+
+    /* Stack FAQ content for mobile */
+    .faq-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Adjust FAQ menu */
+    .faq-menu {
+        width: 100%; /* Full width */
+        text-align: center;
+    }
+
+    .faq-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .faq-menu li {
+        width: 45%; /* Make menu items fit 2 per row */
+        text-align: center;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Adjust FAQ Questions */
+    .faq-questions {
+        width: 100%;
+        text-align: left;
+    }
+
+    .faq-question {
+        font-size: 16px;
+        padding: 8px;
+        gap: 5px;
+    }
+
+    /* Icon adjustments */
+    .faq-question .icon {
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Expandable Answer */
+    .faq-answer {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
 
 /* elfsight */
