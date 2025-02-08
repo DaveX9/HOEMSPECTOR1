@@ -1647,6 +1647,83 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+@media (max-width: 768px) {
+    /* Adjust carousel container */
+    .carousel-container3 {
+        width: 100%;
+        padding: 30px;
+        margin: 30px 0;
+        border-radius: 8px;
+    }
+
+    /* Center and adjust the "ดูทั้งหมด" button */
+    .btn-all {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    /* Reduce slide height */
+    .carousel-slides3 {
+        height: 400px; /* Adjusted for tablets */
+        max-width: 100%;
+    }
+
+    .carousel-slide3 {
+        height: 400px; /* Adjusted for tablets */
+    }
+
+    .carousel-slide3 img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Adjust text content */
+    .slide-content3 {
+        bottom: 15px;
+        left: 15px;
+        width: 70%;
+        padding: 12px;
+    }
+
+    .slide-content3 h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    /* Adjust thumbnails */
+    .carousel-thumbnails {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .thumbnail {
+        width: 55px;
+        height: 55px;
+    }
+
+    /* Resize navigation buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}
+
 
 
 
