@@ -691,23 +691,12 @@ header {
 
 
 
-/* Services Section */
-.services {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
 /* Flex container for layout */
-.service-container {
+.services-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  background: white;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Left Image Section */
@@ -720,30 +709,19 @@ header {
 
 .image-box {
   position: relative;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Yellow Background */
-.image-bg {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  z-index: -1;
-  top: 10%;
-  left: 10%;
-}
-
-/* Image Styling */
 .image-box img {
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   border-radius: 10px;
-  position: relative;
 }
 
+/* Call Box */
 .call-box {
   position: absolute;
   bottom: -20px;
@@ -762,35 +740,34 @@ header {
   color: #FFC107;
 }
 
-
 /* Right Text Section */
 .text-container {
   width: 55%;
   text-align: left;
 }
 
-.text-container .main-title {
+.text-container h2 {
   font-size: 2em;
-  color: #000;
+  color: #333;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.text-container .description {
+.text-container p {
   font-size: 1.1em;
   color: #555;
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Contact Section */
 .contact-title {
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
+/* Social Icons */
 .social-icons {
   display: flex;
   gap: 10px;
@@ -807,36 +784,68 @@ header {
   transform: scale(1.2);
 }
 
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .service-container {
+@media (max-width: 480px) {
+  .services-container {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 10px;
   }
 
-  .image-container,
-  .text-container {
+  .image-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  .text-container {
-    text-align: center;
+  .image-box {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .image-box img {
+    max-width: 100%;
+    border-radius: 8px;
   }
 
   .call-box {
-    position: relative;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 1em;
+    padding: 8px 15px;
+    bottom: 0;
+    margin-top: 10px;
   }
 
-  .image-bg {
-    top: 5%;
-    left: 5%;
+  .text-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .text-container p {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .contact-title {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .social-icons a img {
+    width: 20px;
   }
 }
+
 
 
 /* carousel5 */
