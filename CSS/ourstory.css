@@ -668,6 +668,18 @@ header {
   margin: 15px auto 0;
 }
 
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .story-header {
+    height: 70vh;
+    width: 100%;
+  }
+
+  .story-header .header-title {
+    font-size: 2.5rem;
+  }
+}
+
 /* Vision and Mission Section */
 .vision-mission {
   text-align: center;
@@ -754,6 +766,19 @@ header {
   margin-top: 10px;
   font-size: 1.2rem;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .values {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value {
+    max-width: 80%;
+  }
+}
+
 
 
 /* Founders Section */
@@ -880,6 +905,25 @@ p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .commitment-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .commitment-image {
+    width: 90%;
+  }
+
+  .centered-list {
+    max-width: 100%;
+  }
+
+  .centered-list li {
+    text-align: left;
+  }
+}
 /* Fix Overflow Issue */
 html, body {
   width: 100%;
@@ -888,105 +932,7 @@ html, body {
   padding: 0;
 }
 
-/* General Mobile Fix */
-@media (max-width: 768px) {
-  /* Ensure full width for containers */
-  .story-container,
-  .story-header,
-  .story-content,
-  .vision-mission,
-  .commitment,
-  .values,
-  .founders-container {
-      width: 100% !important;
-      max-width: 100% !important;
-      overflow-x: hidden;
-      margin: 0 auto;
-      padding: 0 10px; /* Prevent content from touching edges */
-  }
 
-  /* Ensure Header Image Covers Full Width */
-  .story-header .header-image {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-  }
-
-  /* Fix header title */
-  .story-header .header-title {
-      font-size: 2rem;
-      padding: 0 10px;
-      text-align: center;
-  }
-
-  /* Fix content spacing */
-  .story-content p {
-      font-size: 1rem;
-      line-height: 1.6;
-      text-align: justify;
-  }
-
-  /* Remove unwanted margins causing extra space */
-  .story-content,
-  .values,
-  .founders-container {
-      margin: 0 auto !important;
-      padding: 10px;
-  }
-
-  /* Contact Section */
-  .contact-container {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-      bottom: 10px;
-  }
-
-  .contact-item {
-      width: 90%;
-      font-size: 0.9rem;
-      text-align: center;
-      padding: 12px;
-  }
-
-  /* Fix Vision & Mission Section */
-  .vision-mission {
-      background-size: cover;
-      background-position: center;
-      padding: 40px 10px;
-  }
-
-  /* Ensure Founders Section fits */
-  .founders-container {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .founder {
-      width: 90%;
-      margin-bottom: 20px;
-  }
-
-  .founder-photo {
-      width: 150px;
-      height: 150px;
-  }
-
-  /* Commitment Section */
-  .commitment-content {
-      flex-direction: column;
-      text-align: center;
-  }
-
-  .commitment-image {
-      width: 100%;
-  }
-
-  .centered-list {
-      max-width: 100%;
-      text-align: left;
-  }
-}
 
 
 
