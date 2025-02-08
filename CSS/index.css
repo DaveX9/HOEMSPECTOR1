@@ -528,12 +528,12 @@ header {
     color: var(--hover-color);
 }
 
-/* html, body {
+html, body {
     width: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-} */
+}
 
 
 /*line*/
@@ -1686,6 +1686,96 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+@media (max-width: 480px) {
+    /* Adjust Carousel Container */
+    .carousel-container3 {
+        width: 100%;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    /* Center and adjust the "ดูทั้งหมด" button */
+    .btn-all {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 15px auto;
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    /* Reduce slide height */
+    .carousel-slides3 {
+        height: 400px; /* Adjusted for smartphones */
+        max-width: 100%;
+    }
+
+    .carousel-slide3 {
+        height: 400px; /* Adjusted for smartphones */
+    }
+
+    .carousel-slide3 img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Adjust text content */
+    .slide-content3 {
+        bottom: 15px;
+        left: 15px;
+        width: 70%;
+        padding: 12px;
+    }
+
+    .slide-content3 h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    /* Adjust thumbnails */
+    .carousel-thumbnails {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 10px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .thumbnail {
+        width: 85px;
+        height: 85px;
+        scroll-snap-align: center;
+        flex-shrink: 0;
+    }
+
+    /* Display only 1-2 thumbnails at a time */
+    .carousel-thumbnails .thumbnail:nth-child(n+3) {
+        display: none;
+    }
+
+    /* Resize navigation buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 16px;
+        padding: 10px 14px;
+    }
+}
+
 
 
 
