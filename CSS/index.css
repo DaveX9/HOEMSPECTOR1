@@ -2447,13 +2447,6 @@ button.next-btn:hover {
         border-radius: 5px;
     }
 
-    .toggle-icon {
-        font-size: 20px;
-        font-weight: bold;
-        transition: transform 0.3s ease;
-        background-color: var(--font2-color);
-        border-radius: 50%;
-}
 
     /* Rotate + to - when active */
     .toggle-menu.active .toggle-icon {
