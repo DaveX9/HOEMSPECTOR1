@@ -734,37 +734,6 @@ html, body {
 }
 
 
-
-/* .carousel-container {
-    max-width: 1200px;
-    margin: 30px auto;
-    overflow: hidden;
-}
-
-
-.carousel_items {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    height: 500px;
-}
-
-.carousel_item {
-    position: relative;
-    min-width: 100%;
-    height: 500px;
-    transition: transform 0.5s ease-in-out;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.carousel_item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-} */
-
 /* Services Section Start */
 .services {
     position: relative;
@@ -884,108 +853,7 @@ html, body {
     }
 }
 
-/* Services Section Start */
-/* .services {
-    background: none;
-    background-image: url('https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--font-color);
-    text-align: center;
-    width: 100vw;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-    border-radius: 0;
-}
 
-.services-header h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: var(--font-color);
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-}
-
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-top: 20px;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.service-card {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 20px;
-    text-align: center;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(12, 12, 12, 0.2);
-    transition: all 0.3s ease;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-}
-
-.service-card:hover {
-    background-color: rgba(29, 185, 233, 0.2);
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
-}
-
-.service-icon {
-    width: 80px;
-    height: 80px;
-    background-color: #eef0ff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 15px;
-}
-
-.service-icon img {
-    width: 60%;
-    height: auto;
-    object-fit: contain;
-}
-
-.service-card h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-@media screen and (max-width: 1024px) {
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .services {
-        padding: 30px 15px;
-    }
-
-    .service-card {
-        width: 90%;
-        margin: 10px auto;
-        padding: 15px;
-    }
-} */
 
 
 
@@ -1108,116 +976,38 @@ html, body {
     }
 }
 
-
-/* General Section Styling */
-.why-choose-us {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-/* Section Title */
-.section-title {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 40px;
-    position: relative;
-}
-
-/* Two-column Layout */
-.content-container {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Left Text Section */
-.text-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* Text Items (with Icon) */
-.text-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-/* Icon Styling */
-.icon-box {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    margin-bottom: 80px;
-}
-
-.icon-box img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-}
-
-/* Text Content */
-.text-content h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    align-items: self-start;
-    text-align: left;
-}
-
-.text-content p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-    text-align: left;
-}
-
-/* Right Image Section */
-.image-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-section img {
-    max-width: 100%;
-    border-radius: 8px;
-    height: 350px;
-    object-fit: cover;
-}
-
-/* Responsive Design for Mobile */
 @media screen and (max-width: 768px) {
+    .why-choose-us {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .content-container {
         flex-direction: column;
         text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .text-section {
         order: 1;
         text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .text-item {
         flex-direction: row;
         align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .image-section {
         order: 2;
         margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .image-section img {
@@ -1231,77 +1021,11 @@ html, body {
     .text-content p {
         font-size: 14px;
     }
-}
 
-
-
-.certifications {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 70px;
-    padding-top: 5px;
-    margin-left: 40px;
-}
-
-.certification {
-    text-align: center;
-    max-width: 150px;
-}
-
-.certification img {
-    max-width: 120px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.certification p {
-    font-size: 12px;
-    color: #333;
-    margin: 8px 0 0 0;
-    line-height: 1.4;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .certifications {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        margin-left: 0;
-        padding: 10px;
+    .single-image-container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
-
-    .certification {
-        max-width: 100%;
-    }
-
-    .certification img {
-        max-width: 80px;
-    }
-
-    .certification p {
-        font-size: 10px;
-    }
-}
-
-
-.single-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-}
-
-.single-image {
-    height: auto;
-    width: 400px;
-    max-width: 600px;
-    width: 100%;
-    border-radius: 10px;
 }
 
 
@@ -1686,6 +1410,86 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+@media screen and (max-width: 768px) {
+    .carousel-container3 {
+        width: 100%;
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .carousel-slides3 {
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-slide3 {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-slide3 img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+
+    .slide-content3 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        text-align: left;
+        margin: 10px auto;
+    }
+
+    .slide-content3 h3 {
+        font-size: 16px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    /* Button Positioning */
+    .btn-all {
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    /* Thumbnails */
+    .carousel-thumbnails {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .thumbnail {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Navigation Buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
 
 
 /* Article */
@@ -1842,6 +1646,33 @@ button.next-btn:hover {
 
 .cta button:hover {
     background-color: #2a9881;
+}
+@media screen and (max-width: 768px) {
+    .container-newapp {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content-newapp {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .app-preview {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+        gap: 15px;
+    }
+
+    .app-preview img {
+        width: 80%; /* Make images responsive */
+        max-width: 250px;
+    }
+
+    .cta button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
 }
 
 
