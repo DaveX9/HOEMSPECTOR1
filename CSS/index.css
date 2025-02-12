@@ -845,6 +845,8 @@ html, body {
 
     .services {
         padding: 30px 15px;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 
     .service-card {
@@ -855,14 +857,12 @@ html, body {
 }
 
 
-/* Wrapper Section */
 .wrapper {
     display: flex;
     justify-content: center;
     padding: 50px 20px;
 }
 
-/* Inspection Info Section */
 .inspection-info {
     display: flex;
     align-items: center;
@@ -876,7 +876,6 @@ html, body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Left Content Section */
 .info-content {
     flex: 1;
     padding: 40px;
