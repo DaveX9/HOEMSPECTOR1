@@ -734,6 +734,7 @@ html, body {
 }
 
 
+
 /* Services Section Start */
 .services {
     position: relative;
@@ -852,9 +853,6 @@ html, body {
         padding: 15px;
     }
 }
-
-
-
 
 
 /* Wrapper Section */
@@ -976,38 +974,116 @@ html, body {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .why-choose-us {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
+/* General Section Styling */
+.why-choose-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Two-column Layout */
+.content-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left Text Section */
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Text Items (with Icon) */
+.text-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Icon Styling */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 80px;
+}
+
+.icon-box img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Text Content */
+.text-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    align-items: self-start;
+    text-align: left;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Right Image Section */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
     .content-container {
         flex-direction: column;
         text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .text-section {
         order: 1;
         text-align: left;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .text-item {
         flex-direction: row;
         align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .image-section {
         order: 2;
         margin-top: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .image-section img {
@@ -1021,11 +1097,77 @@ html, body {
     .text-content p {
         font-size: 14px;
     }
+}
 
-    .single-image-container {
-        padding-left: 15px;
-        padding-right: 15px;
+
+
+.certifications {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 70px;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+
+.certification {
+    text-align: center;
+    max-width: 150px;
+}
+
+.certification img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.certification p {
+    font-size: 12px;
+    color: #333;
+    margin: 8px 0 0 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .certifications {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-left: 0;
+        padding: 10px;
     }
+
+    .certification {
+        max-width: 100%;
+    }
+
+    .certification img {
+        max-width: 80px;
+    }
+
+    .certification p {
+        font-size: 10px;
+    }
+}
+
+
+.single-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.single-image {
+    height: auto;
+    width: 400px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -1298,7 +1440,6 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Align title and button vertically */
     margin-bottom: 20px;
 }
 
@@ -1410,86 +1551,6 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
-@media screen and (max-width: 768px) {
-    .carousel-container3 {
-        width: 100%;
-        padding: 20px;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .carousel-slides3 {
-        height: auto;
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    .carousel-slide3 {
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
-
-    .carousel-slide3 img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-        border-radius: 5px;
-    }
-
-    .slide-content3 {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: 90%;
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 10px;
-        border-radius: 5px;
-        text-align: left;
-        margin: 10px auto;
-    }
-
-    .slide-content3 h3 {
-        font-size: 16px;
-    }
-
-    .slide-content3 p {
-        font-size: 14px;
-    }
-
-    .slide-content3 .btn {
-        font-size: 12px;
-        padding: 8px 15px;
-    }
-
-    /* Button Positioning */
-    .btn-all {
-        top: 10px;
-        right: 10px;
-        font-size: 12px;
-        padding: 8px 15px;
-    }
-
-    /* Thumbnails */
-    .carousel-thumbnails {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .thumbnail {
-        width: 50px;
-        height: 50px;
-    }
-
-    /* Navigation Buttons */
-    button.prev-btn,
-    button.next-btn {
-        font-size: 16px;
-        padding: 8px 15px;
-    }
-}
-
 
 
 /* Article */
