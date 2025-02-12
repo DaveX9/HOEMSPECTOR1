@@ -846,7 +846,6 @@ html, body {
     .services {
         padding: 30px 15px;
         margin-bottom: 30px;
-        margin-top: 20px;
     }
 
     .service-card {
@@ -1550,6 +1549,98 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+@media screen and (max-width: 768px) {
+    .carousel-container3 {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 0; /* Remove rounded corners for full width */
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .carousel-header3 {
+        text-align: center; /* Center align the title */
+        flex-direction: column; /* Stack title and button */
+        gap: 10px;
+    }
+
+    .btn-all {
+        position: static; /* Remove absolute positioning */
+        display: block;
+        margin: 10px auto;
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .carousel-slides3 {
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-slide3 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .carousel-slide3 img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .slide-content3 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .slide-content3 h3 {
+        font-size: 16px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 12px;
+        padding: 8px 15px;
+        display: block;
+        width: fit-content;
+        margin: 10px auto;
+    }
+
+    /* Center thumbnails and adjust size */
+    .carousel-thumbnails {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .thumbnail {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Navigation Buttons */
+    button.prev-btn,
+    button.next-btn {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
 
 
 /* Article */
