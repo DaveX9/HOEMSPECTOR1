@@ -1554,27 +1554,13 @@ button.next-btn:hover {
         width: 100%;
         max-width: 100%;
         padding: 20px;
-        border-radius: 0; /* Remove rounded corners for full width */
+        border-radius: 0;
         margin-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .carousel-header3 {
-        text-align: center; /* Center align the title */
-        flex-direction: column; /* Stack title and button */
-        gap: 10px;
-    }
-
-    .btn-all {
-        position: static; /* Remove absolute positioning */
-        display: block;
-        margin: 10px auto;
-        font-size: 12px;
-        padding: 8px 15px;
+        margin-bottom: 10px; /* Reduce bottom margin */
     }
 
     .carousel-slides3 {
-        height: auto;
+        height: auto; /* Adjust height automatically */
         max-width: 100%;
         overflow: hidden;
     }
@@ -1599,33 +1585,18 @@ button.next-btn:hover {
         left: 0;
         width: 90%;
         background-color: rgba(0, 0, 0, 0.7);
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
         text-align: center;
         margin: 10px auto;
     }
 
-    .slide-content3 h3 {
-        font-size: 16px;
-    }
-
-    .slide-content3 p {
-        font-size: 14px;
-    }
-
-    .slide-content3 .btn {
-        font-size: 12px;
-        padding: 8px 15px;
-        display: block;
-        width: fit-content;
-        margin: 10px auto;
-    }
-
-    /* Center thumbnails and adjust size */
     .carousel-thumbnails {
         justify-content: center;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 8px;
+        margin-top: 10px; /* Reduce extra space */
+        margin-bottom: 10px; /* Reduce extra space */
     }
 
     .thumbnail {
@@ -1633,11 +1604,11 @@ button.next-btn:hover {
         height: 50px;
     }
 
-    /* Navigation Buttons */
-    button.prev-btn,
-    button.next-btn {
-        font-size: 16px;
-        padding: 8px 15px;
+    .prev-btn,
+    .next-btn {
+        font-size: 14px;
+        padding: 6px 12px;
+        margin-top: 5px; /* Reduce extra space */
     }
 }
 
