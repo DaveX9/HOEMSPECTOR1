@@ -1401,75 +1401,94 @@ html, body {
     }
 }
 
-/* Carousel Container */
+/* Full-Screen Background */
 .carousel-container3 {
     background-color: #001b39;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 0;
     color: white;
-    width: 1100px;
+    width: 100vw;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 50px;
-    margin-top: 40px;
     box-sizing: border-box;
-}
-
-/* Position the "ดูทั้งหมด" button */
-.btn-all {
-    border-color: #ddd;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.btn-all:hover {
-    background-color: #ff5c05;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Header Section */
 .carousel-header3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between title and button */
     align-items: center;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1200px; /* Keeps it centered */
+    margin: 0 auto 20px;
+    padding: 0 20px; /* Adds space to both sides */
 }
 
-/* Carousel Slides */
+/* Title aligned to the left */
+.carousel-title3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+/* "ดูทั้งหมด" Button aligned to the right */
+.btn-all {
+    border: 1px solid #ddd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.btn-all:hover {
+    background-color: #ff5c05;
+}
+/* Main Carousel */
+.carousel3 {
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    position: relative;
+}
+
+/* Center Carousel Slides */
 .carousel-slides3 {
     position: relative;
     overflow: hidden;
-    height: 600px;
-    max-width: 120%;
-    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Individual Slide */
 .carousel-slide3 {
-    position: absolute;
-    top: 0;
-    left: 100%;
+    position: relative;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+    height: auto;
+    border-radius: 10px;
+    display: none;
 }
 
 .carousel-slide3.active {
-    left: 0;
-    opacity: 1;
-    z-index: 1;
+    display: block;
 }
 
+/* Image */
 .carousel-slide3 img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -1505,21 +1524,34 @@ html, body {
     background-color: #ff5c05;
 }
 
-/* Thumbnail Navigation */
+
+/* Center Thumbnails */
 .carousel-thumbnails {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    gap: 15px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 15px 0;
+    width: 80%;
+    max-width: 1200px;
+    white-space: nowrap;
 }
 
+.carousel-thumbnails::-webkit-scrollbar {
+    display: none;
+}
+
+/* Thumbnail Style */
 .thumbnail {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     transition: border-color 0.3s;
+    flex-shrink: 0;
 }
 
 .thumbnail.active {
@@ -1533,12 +1565,13 @@ html, body {
     border-radius: 5px;
 }
 
+/* Navigation Buttons */
 button.prev-btn,
 button.next-btn {
     background-color: #ffa500;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
@@ -1549,54 +1582,56 @@ button.prev-btn:hover,
 button.next-btn:hover {
     background-color: #ff5c05;
 }
+
+/* Responsive for Smartphones */
 @media screen and (max-width: 768px) {
     .carousel-container3 {
-        width: 100%;
-        max-width: 100%;
         padding: 20px;
-        border-radius: 0;
-        margin-top: 20px;
-        margin-bottom: 10px; /* Reduce bottom margin */
+    }
+    .carousel-header3 {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 15px;
     }
 
-    .carousel-slides3 {
-        height: auto; /* Adjust height automatically */
-        max-width: 100%;
-        overflow: hidden;
+    .carousel-title3 {
+        font-size: 18px; /* Adjust for smaller screens */
     }
 
-    .carousel-slide3 {
-        position: relative;
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
+    .btn-all {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .carousel3 {
+        width: 95%;
     }
 
     .carousel-slide3 img {
         width: 100%;
         height: auto;
-        object-fit: contain;
-        border-radius: 10px;
     }
 
     .slide-content3 {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        width: 90%;
-        background-color: rgba(0, 0, 0, 0.7);
+        width: 95%;
         padding: 10px;
-        border-radius: 10px;
-        text-align: center;
-        margin: 10px auto;
+    }
+
+    .slide-content3 h3 {
+        font-size: 16px;
+    }
+
+    .slide-content3 p {
+        font-size: 14px;
+    }
+
+    .slide-content3 .btn {
+        font-size: 12px;
+        padding: 8px 15px;
     }
 
     .carousel-thumbnails {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-top: 10px; /* Reduce extra space */
-        margin-bottom: 10px; /* Reduce extra space */
+        width: 95%;
     }
 
     .thumbnail {
@@ -1604,15 +1639,12 @@ button.next-btn:hover {
         height: 50px;
     }
 
-    .prev-btn,
-    .next-btn {
+    button.prev-btn,
+    button.next-btn {
         font-size: 14px;
-        padding: 6px 12px;
-        margin-top: 5px; /* Reduce extra space */
+        padding: 8px 12px;
     }
 }
-
-
 
 /* Article */
 .articles {
