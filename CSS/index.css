@@ -1400,11 +1400,10 @@ html, body {
         padding: 0 10px;
     }
 }
-
 /* Full-Screen Background */
 .carousel-container3 {
     background-color: #001b39;
-    padding: 40px;
+    padding: 40px 20px; /* Reduced padding for mobile */
     border-radius: 0;
     color: white;
     width: 100vw;
@@ -1423,9 +1422,9 @@ html, body {
     justify-content: space-between; /* Space between title and button */
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Keeps it centered */
+    max-width: 1200px;
     margin: 0 auto 20px;
-    padding: 0 20px; /* Adds space to both sides */
+    padding: 0 20px;
 }
 
 /* Title aligned to the left */
@@ -1452,9 +1451,10 @@ html, body {
 .btn-all:hover {
     background-color: #ff5c05;
 }
+
 /* Main Carousel */
 .carousel3 {
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     text-align: center;
     position: relative;
@@ -1500,7 +1500,7 @@ html, body {
     padding: 15px;
     border-radius: 5px;
     text-align: left;
-    width: 40%;
+    width: 38%;
 }
 
 .slide-content3 h3 {
@@ -1531,10 +1531,10 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 8px;
     overflow-x: auto;
-    padding: 15px 0;
-    width: 80%;
+    padding: 10px 0;
+    width: 100%;
     max-width: 1200px;
     white-space: nowrap;
 }
@@ -1545,8 +1545,8 @@ html, body {
 
 /* Thumbnail Style */
 .thumbnail {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
@@ -1586,25 +1586,26 @@ button.next-btn:hover {
 /* Responsive for Smartphones */
 @media screen and (max-width: 768px) {
     .carousel-container3 {
-        padding: 20px;
+        padding: 20px 10px; /* Reduce padding for mobile */
     }
+
     .carousel-header3 {
         flex-direction: row;
         align-items: center;
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
     .carousel-title3 {
-        font-size: 18px; /* Adjust for smaller screens */
+        font-size: 18px;
     }
 
     .btn-all {
         font-size: 12px;
-        padding: 8px 15px;
+        padding: 6px 12px;
     }
 
     .carousel3 {
-        width: 95%;
+        width: 100%;
     }
 
     .carousel-slide3 img {
@@ -1612,9 +1613,11 @@ button.next-btn:hover {
         height: auto;
     }
 
+    /* Fix content box alignment */
     .slide-content3 {
-        width: 95%;
+        width: 90%;
         padding: 10px;
+        bottom: 5%; /* Prevent overlapping */
     }
 
     .slide-content3 h3 {
@@ -1627,11 +1630,13 @@ button.next-btn:hover {
 
     .slide-content3 .btn {
         font-size: 12px;
-        padding: 8px 15px;
+        padding: 6px 12px;
     }
 
+    /* Keep thumbnails aligned */
     .carousel-thumbnails {
-        width: 95%;
+        width: 100%;
+        justify-content: center;
     }
 
     .thumbnail {
