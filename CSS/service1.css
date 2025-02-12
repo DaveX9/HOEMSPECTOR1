@@ -628,14 +628,13 @@ header {
 
 /* Background Overlay for Readability */
 .services-section::before {
-  content: ";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  /* Dark overlay */
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
   z-index: 1;
 }
 
@@ -730,19 +729,16 @@ header {
   background-size: cover;
 }
 
-/* Background Overlay for Readability */
 .pricing-section::before {
-  content: ";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  /* Dark overlay */
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
   z-index: 1;
 }
-
 /* Pricing Title */
 .pricing-heading {
   font-size: 2.5rem;
@@ -858,7 +854,7 @@ header {
 
 /* Skewed Background */
 .reports-section::before {
-  content: ";
+  content: "";
   position: absolute;
   top: -50px;
   left: 0;
@@ -868,7 +864,6 @@ header {
   transform: skewY(5deg);
   z-index: -1;
 }
-
 /* Reports Heading */
 .reports-heading {
   color: #fff;
@@ -1150,4 +1145,59 @@ header {
   font-size: 0.9em;
   color: #777;
   margin-bottom: -30px;
+}
+.toggle-icon {
+  font-size: 24px;
+  order: -1;
+  background-color: #0056b3;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.toggle-icon:hover .icon {
+  background-color:var(--font2-color);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-menu {
+      display: none;
+      flex-direction: column;
+      text-align: left;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 5px;
+      list-style-type: none;
+  }
+
+  .toggle-menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px;
+      background: #f1f1f1;
+      border-radius: 5px;
+  }
+
+  .toggle-icon {
+      font-size: 20px;
+      font-weight: bold;
+      transition: transform 0.3s ease;
+      background-color: var(--font2-color);
+      border-radius: 50%;
+}
+
+  /* Rotate + to - when active */
+  .toggle-menu.active .toggle-icon {
+      transform: rotate(45deg);
+  }
 }
