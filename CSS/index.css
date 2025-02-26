@@ -8,7 +8,7 @@
     --navborder-color: #ea0303;
     --seconadry-color: #3ec8ff;
     --font2-color: #006ac0;
-    --font3-color:#002d5b;
+    --font3-color: #002d5b;
 }
 
 /* General Reset */
@@ -486,7 +486,7 @@ header {
 
 .menu-section ul li a {
     text-decoration: none;
-    color:var(--font3-color);
+    color: var(--font3-color);
     font-size: 1rem;
     transition: color 0.3s ease;
 }
@@ -636,7 +636,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/HOMESPECTOR/img/hero-bg1.jpg') no-repeat center center/cover;
+    background: url('/img/hero-bg1.jpg') no-repeat center center/cover;
     transform-origin: center;
     animation: zoomAnimation 10s infinite alternate ease-in-out;
 }
@@ -1893,7 +1893,8 @@ button.next-btn:hover {
     font-weight: bold;
     transition: background-color 0.3s;
 }
-.cta button a{
+
+.cta button a {
     text-decoration: none;
 }
 

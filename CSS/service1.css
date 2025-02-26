@@ -8,7 +8,7 @@
   --navborder-color: #ea0303;
   --seconadry-color: #3ec8ff;
   --font2-color: #006ac0;
-  --font3-color:#002d5b;
+  --font3-color: #002d5b;
 }
 
 /* General Reset */
@@ -625,7 +625,7 @@ header {
   text-align: center;
   height: 400px;
   /* Adjust the height as needed */
-  background: url(/HOMESPECTOR/img/banner.png) no-repeat center center/cover;
+  background: url(/img/banner.png) no-repeat center center/cover;
 }
 
 .hero-overlay h1 {
