@@ -2754,3 +2754,73 @@ button.next-btn:hover {
         width: 140px;
     }
 }
+/* Responsive for tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 150px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer-center ul,
+    .footer-right ul,
+    .footer-help ul {
+        display: none;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .footer-center h2,
+    .footer-right h2,
+    .footer-help h2 {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        color: #002d5b;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .toggle-icon {
+        font-size: 18px;
+        font-weight: bold;
+        transition: transform 0.3s ease;
+        display: inline-block;
+    }
+
+    .footer-center.active ul,
+    .footer-right.active ul,
+    .footer-help.active ul {
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) {
+    .toggle-icon {
+        display: none;
+    }
+
+    .footer-center ul,
+    .footer-right ul,
+    .footer-help ul {
+        display: block;
+    }
+}
