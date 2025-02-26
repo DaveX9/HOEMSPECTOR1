@@ -1414,3 +1414,41 @@ blockquote {
         width: 140px;
     }
 }
+@media (max-width: 1024px) {
+    .footer-sections {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start; 
+        width: 100%;
+    }
+
+    .footer-center,
+    .footer-right,
+    .footer-help,
+    .footer-payment {
+        flex: 1 1 calc(25% - 20px); 
+        max-width: 25%;
+        text-align: left;
+        min-height: 150px; 
+    }
+
+    .footer-payment {
+        text-align: left; 
+        align-self: flex-start;
+    }
+
+    .payment-logos {
+        display: flex;
+        gap: 10px;
+    }
+
+    .payment-logos img {
+        width: 50px;
+        transition: transform 0.3s ease;
+    }
+
+    .payment-logos img:hover {
+        transform: scale(1.1);
+    }
+}
