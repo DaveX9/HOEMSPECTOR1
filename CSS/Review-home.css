@@ -8,7 +8,7 @@
     --navborder-color: #ea0303;
     --seconadry-color: #3ec8ff;
     --font2-color: #006ac0;
-    --font3-color:#002d5b;
+    --font3-color: #002d5b;
 }
 
 /* General Reset */
@@ -614,6 +614,7 @@ header {
         /* Maintain spacing between icon and text */
     }
 }
+
 .review-page {
     max-width: 1200px;
     margin: 0 auto;
@@ -659,13 +660,14 @@ header {
 .category-btn:hover {
     background-color: #ddd;
 }
+
 /* hr line */
 hr {
-    border: none;      
-    height: 2px;       
-    background-color: #333; 
-    width: 40%;          
-    margin: 20px auto; 
+    border: none;
+    height: 2px;
+    background-color: #333;
+    width: 40%;
+    margin: 20px auto;
 }
 
 /* review card */
@@ -875,6 +877,7 @@ hr {
 
 .map-container {
     text-align: left;
+    /* Align iframe container to the left */
 }
 
 .map-container iframe {
@@ -888,12 +891,16 @@ hr {
     display: inline-block;
     margin: 10px 0;
     padding: 8px 12px;
+    /* Adjust padding for better sizing */
     font-size: 14px;
     background-color: #003f87;
+    /* Button background color */
     color: #fff !important;
+    /* Ensure white text is applied */
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    /* Remove underline */
     text-align: center;
     cursor: pointer;
 }
