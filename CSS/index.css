@@ -2129,50 +2129,42 @@ button.next-btn:hover {
     }
 
     .section-title {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .section-subtitle {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .stats-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center; /* Center align boxes */
-        gap: 10px; /* Adjust spacing */
+        gap: 8px; 
     }
 
-    /* Ensure Three Stat Boxes Per Row */
     .stat-box {
-        width: calc(33.33% - 10px); /* Perfect three per row */
-        max-width: 140px; /* Control max size */
-        min-width: 100px; /* Ensure they don't shrink too much */
-        text-align: center;
-        padding: 15px;
+        width: 32%; 
+        max-width: 110px;
+        height: 110px; 
     }
 
     .stat-box h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .stat-box p {
-        font-size: 0.9em;
+        font-size: 0.75em;
     }
 }
 
 /* Extra Small Screens (Phones under 480px) */
 @media screen and (max-width: 480px) {
     .stats-container {
-        justify-content: center;
         gap: 5px;
     }
 
-    /* Ensure Three Per Row */
     .stat-box {
-        width: 32%; /* 3 per row with precise width */
-        max-width: 120px; /* Prevent too large */
-        min-width: 90px; /* Prevent too small */
+        width: 32%; 
+        max-width: 100px;
+        height: 100px; 
     }
 
     .stat-box h2 {
@@ -2180,7 +2172,7 @@ button.next-btn:hover {
     }
 
     .stat-box p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 }
 
