@@ -2122,7 +2122,7 @@ button.next-btn:hover {
     color: #555;
     margin-top: 5px;
 }
-
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .content-wrapper {
         max-width: 90%;
@@ -2139,18 +2139,19 @@ button.next-btn:hover {
     .stats-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between; /* Better spacing */
         gap: 10px;
     }
 
-
+    /* Ensure Three Stat Boxes Per Row */
     .stat-box {
-        width: 30%;
-        max-width: 140px; 
+        width: calc(33.33% - 10px); 
+        max-width: 160px; 
+        min-width: 110px; 
     }
 
     .stat-box h2 {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     .stat-box p {
@@ -2158,15 +2159,26 @@ button.next-btn:hover {
     }
 }
 
+/* Extra Small Screens (Phones under 480px) */
 @media screen and (max-width: 480px) {
     .stats-container {
         justify-content: center;
+        gap: 8px;
     }
 
-
+    /* Ensure Three Per Row, Adjust for Very Small Screens */
     .stat-box {
-        width: 30%; 
-        max-width: 120px; 
+        width: calc(33.33% - 8px); /* 3 per row */
+        max-width: 130px; /* Reduce size for small screens */
+        min-width: 100px;
+    }
+
+    .stat-box h2 {
+        font-size: 1.3em;
+    }
+
+    .stat-box p {
+        font-size: 0.8em;
     }
 }
 
