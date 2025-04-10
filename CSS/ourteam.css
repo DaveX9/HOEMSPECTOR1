@@ -31,6 +31,7 @@ body {
   padding: 10px 20px;
   border-bottom: 1px solid #dddddd;
   border-bottom: none;
+  background: linear-gradient(to bottom, #dff6ff, #ffffff);
 }
 
 .container {
@@ -674,7 +675,7 @@ header {
 .about {
   padding: 30px 20px;
   text-align: center;
-  background-image: url('https://www.jesusislife.in/wp-content/uploads/2019/05/Savin-NY-Website-Background-Web.jpg');
+  background-image: url('/img/web-bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -716,7 +717,7 @@ header {
 
 
 /* Founders Section */
-.our-founders {
+/* .our-founders {
   text-align: center;
   padding: 40px 20px;
   margin-top: 30px;
@@ -790,12 +791,12 @@ p {
 .certification-badge {
   width: 100px;
   height: auto;
-}
+} */
 
 
 /* Team Carousel */
 
-.team-section {
+/* .team-section {
   text-align: center;
   padding: 50px 20px;
   background: linear-gradient(to bottom, #1F3A5F 50%, #ffffff 50%);
@@ -910,7 +911,6 @@ p {
   border-radius: 10px;
   padding: 20px;
   min-width: 25%;
-  /* Shows only 4 at a time */
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -929,7 +929,7 @@ p {
   .team-member {
     min-width: 80%;
   }
-}
+} */
 
 
 /* Footer Base */
